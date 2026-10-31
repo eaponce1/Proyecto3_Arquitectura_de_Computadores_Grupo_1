@@ -192,7 +192,7 @@ Frecuencia demostrada & 16,129\mhz{} & 10\mhz{} (no máximo probado) \\
 \end{tabular}
 \end{table}
 
-ROM+RAM se eligió como candidata por usar aproximadamente cuatro veces menos área de síntesis. La frecuencia de la unificada se informa como demostrada, no como máximo, porque no se hizo un barrido adicional.
+ROM+RAM se eligió como candidata por usar aproximadamente cuatro veces menos área de síntesis. Para ROM+RAM, el menor período que cerró timing en los nueve corners fue 62 ns (16,129 MHz). Para la memoria unificada solo se verificó el punto de 100 ns (10 MHz); no se ejecutó un barrido de período para esa arquitectura. Por tanto, 10 MHz es una frecuencia demostrada, no su frecuencia máxima. El requisito de frecuencia máxima para la memoria unificada queda pendiente de una exploración adicional.
 
 \section{Síntesis, celdas más utilizadas y desglose jerárquico}
 Las corridas usaron LibreLane 3.0.16, PDK \ruta{gf180mcuD} revisión \ruta{8afc8346a57fe1ab7934ba5a6056ea8b43078e71}, biblioteca \ruta{gf180mcu_fd_sc_mcu7t5v0} y Yosys 0.62. La comparación inicial produjo 140802,3232\umdos{} y 874 FF para ROM+RAM, frente a 565735,9680\umdos{} y 5317 FF para memoria unificada.
@@ -234,7 +234,7 @@ SoC total & 141924,0704 & 100\% & \ruta{stat} con Liberty \\
 \end{tabular}
 \end{table}
 
-Se esperaba cualitativamente que la unificada fuera mayor por almacenar el programa en FF, lo que se confirmó. No existía predicción numérica previa; no se construye una estimación retrospectiva. El register file dominó el área.
+Se esperaba cualitativamente que la unificada fuera mayor por almacenar el programa en FF, lo que se confirmó. No existía predicción numérica previa; no se construye una estimación retrospectiva. El register file dominó el área con 48,668\% del SoC. El contador de ciclos agregado en el Proyecto 2 ocupa 3714,2784~\umdos{}, equivalente a 2,617\% del área total sintetizada, según el cono inverso de 97 celdas utilizado para identificarlo.
 
 \section{Análisis de timing y ruta crítica}
 \subsection{Barrido de período}
@@ -483,7 +483,7 @@ cero violaciones eléctricas bajo las restricciones disponibles.
 
 La Etapa 6 identificó rutas de slew asociadas a fetch/decode/execute y a la decodificación de dirección ROM/RAM. Por ejemplo, \ruta{_3648_} alcanzó 6,120624\ns{} frente a un límite de 3\ns{}. Se probaron reparación post-GRT, márgenes de slew/capacitancia y CTS. El mejor balance, GRT70+CTS10, bajó a 143/27/1 violaciones de slew/cap/fanout, pero no cerró; variantes que eliminaron fanout empeoraron slew.
 
-Durante el desarrollo se encontró una violación de antena real en \ruta{u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]}, con relación 826,80/400,00 en Metal4. La causa fue una salida de ROM combinacional con ruta física larga; la reparación insertó jumpers/diodos y los reportes posteriores de antena quedaron limpios. La trazabilidad de layout conserva register file, contador y la frontera observable de ALU; la captura corresponde a una corrida experimental, no a una implementación cerrada.
+Durante el desarrollo se encontró una violación de antena real en \ruta{u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]}, con relación 826,80/400,00 en Metal4. La causa fue una salida de ROM combinacional con ruta física larga; la reparación insertó jumpers/diodos y los reportes posteriores de antena quedaron limpios. La trazabilidad de layout conserva register file, contador y la frontera observable de ALU; la captura corresponde a \ruta{etapa6_rom_ram_grt60}, una corrida experimental, no a \ruta{etapa21_combined}. Por tanto, esta figura demuestra el método de identificación, pero no satisface por sí sola el requisito de adjuntar las ubicaciones anotadas sobre el layout final cerrado. La captura anotada específica de \ruta{etapa21_combined} queda pendiente y no se sustituye por una imagen de otra corrida.
 
 \begin{figure}[H]
 \centering
@@ -497,7 +497,7 @@ Se simuló el netlist post-síntesis sin retardos anotados de \ruta{etapa7_rom_r
 
 \begin{table}[H]
 \centering\small
-\caption{Equivalencia RTL y post-síntesis.}
+\caption{Equivalencia RTL y post-síntesis de la corrida histórica \ruta{etapa7_rom_ram_post_synth}; no corresponde al netlist ECO final de Etapa 21.}
 \label{tab:postsynth}
 \begin{tabularx}{\linewidth}{p{0.18\linewidth}YYp{0.18\linewidth}}
 \toprule
