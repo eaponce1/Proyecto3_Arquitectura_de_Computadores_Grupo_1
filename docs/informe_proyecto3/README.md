@@ -26,4 +26,6 @@ Subir el contenido de esta carpeta, seleccionar `main.tex` como documento princi
 ## Revisión manual pendiente
 
 - Inspeccionar visualmente las tablas anchas y las figuras después de compilar.
-- Mantener explícito que el GDSII es candidato: persisten 2695/10/58 violaciones de slew/capacitancia/fanout en la baseline reglamentaria de Etapa 9 y 440/2/57 en la mejor candidata técnica de Etapa 12. Las variantes de Etapa 13 tampoco cierran el diseño.
+- Mantener explícito que las Etapas 9, 12 y 13 presentan violaciones eléctricas, mientras que `etapa21_combined` alcanza 0/0/0 (slew/capacitancia/fanout) y timing positivo en nueve corners. La implementación representa cierre del macro bajo las restricciones disponibles, no certificación de un chip completo con pads e I/O.
+- Las simulaciones completas de ronda correcta, incorrecta y diez rondas de Etapa 7 no deben confundirse con la validación parcial de 208 y 1008 ciclos de la Etapa 21.
+- El PDF publicado debe recompilarse después de cambiar `main.tex`; hasta entonces, el PDF anterior no contiene todas las correcciones de presentación.
