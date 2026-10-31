@@ -102,7 +102,7 @@ El sistema integra el procesador Espino RV32E, register file, ALU, controlador, 
 \subsection{Separación del top ASIC}
 Se creó \ruta{rtl/asic_top.v}, que instancia el SoC y expone \ruta{clk_i}, \ruta{rst_ni}, \ruta{btn_i[3:0]}, \ruta{leds_o[3:0]}, los dos buses de siete segmentos y SPI. No contiene restricciones de pines. El top FPGA \ruta{rtl/game_top.v} se preservó y sigue generando su reset de power-on de 2048 ciclos.
 
-Para ASIC, \ruta{rtl/pochoco_soc.v} recibe reset externo activo bajo \ruta{i_Rst_ni}; se eliminó del camino ASIC el contador de power-on propio de iCE40. La Tabla \ref{tab:fpga-asic} resume las incompatibilidades tratadas.
+Para ASIC, \ruta{rtl/pochoco_soc.v} recibe reset externo activo bajo \ruta{i_Rst_ni}; se eliminó del camino ASIC el contador de power-on propio de iCE40. El Cuadro \ref{tab:fpga-asic} resume las incompatibilidades tratadas.
 
 \begin{table}[H]
 \centering\small
@@ -240,7 +240,7 @@ Se esperaba cualitativamente que la unificada fuera mayor por almacenar el progr
 \subsection{Barrido de período}
 La arquitectura ROM+RAM se evaluó a 100, 70, 62 y 60\ns{}. En las corridas sin slack negativo LibreLane reporta WNS=0 y TNS=0; por claridad se muestra además el peor slack real (WS). Cada período induce una nueva optimización, placement y buffering.
 
-La Tabla \ref{tab:timing-100} transcribe las métricas de
+El Cuadro \ref{tab:timing-100} transcribe las métricas de
 \ruta{etapa4_rom_ram_100ns_100/55-openroad-stapostpnr/state_out.json}. El
 corner típico es \ruta{nom_tt_025C_5v00} y el más lento para setup es
 \ruta{max_ss_125C_4v50}. Aquí \emph{WNS}=0 no significa slack nulo: LibreLane
@@ -446,23 +446,26 @@ Etapa 13 CTS & 186061 & 0,375554 & +52,430605 & +0,010418 \\
 \centering\footnotesize
 \caption{Métricas finales de la corrida de cierre eléctrico Etapa 21.}
 \label{tab:stage21-final}
-\begin{tabularx}{\linewidth}{YrrrY}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.38\linewidth}Y}
 \toprule
-Métrica & Valor & Unidad & Evidencia & Estado \\
+Métrica & Resultado verificado en \ruta{etapa21_combined} \\
 \midrule
-CLOCK\_PERIOD & 100 & ns & \ruta{asic/rom_ram_stage21_combined.json} & configurado \\
-FP\_CORE\_UTIL & 40 & \% & \ruta{asic/rom_ram_stage21_combined.json} & configurado \\
-Área de celdas & 187808 & \umdos & \ruta{asic/runs/etapa21_combined/final/metrics.json} & reportada \\
-Utilización & 0,541139 & -- & \ruta{asic/runs/etapa21_combined/final/metrics.json} & reportada \\
-Slew / capacitancia / fanout & 0 / 0 / 0 & violaciones & STA post-route con SPEF & cumplido \\
-Setup / hold WNS peor & +53,053929 / +0,006720 & ns & nueve corners & cumplido \\
-DRC / Magic / LVS / antena / XOR & 0 / 0 / 0 / 0 / limpio & errores & reportes de la corrida & limpio \\
-KLayout DRC externo / PDN & limpio / conectado & -- & \ruta{reports/stage21_etapa21_combined.lyrdb} e IR drop & verificado \\
+Período y utilización objetivo & 100 ns; \ruta{FP_CORE_UTIL=40} \\
+Área de celdas y utilización real & 187808 \umdos{}; 54,1139\% \\
+Slew / capacitancia / fanout & \textbf{0 / 0 / 0} violaciones \\
+Peor slack setup / hold (nueve corners) & +53,053929 ns / +0,006720 ns \\
+Routing DRC / Magic DRC / LVS / antena & 0 / 0 / 0 / 0 errores \\
+XOR / KLayout DRC externo / PDN & Sin diferencias / limpio / conectado \\
 \bottomrule
 \end{tabularx}
+\par\smallskip
+{\footnotesize Fuente: \ruta{reports/entrega/etapa21_combined_metrics.json};
+KLayout externo: \ruta{reports/entrega/etapa21_combined_klayout.lyrdb}.
+El WNS reportado por LibreLane se trunca a cero cuando no hay violaciones;
+los valores positivos citados corresponden al peor slack real (WS).}
 \end{table}
 
-En las cuatro corridas completas, setup y hold tienen WNS/TNS de
+En las corridas de referencia de Etapas 9, 12 y 13, setup y hold tienen WNS/TNS de
 0/0\ns{} en los nueve corners. El routing DRC, Magic DRC, LVS y antena
 terminaron sin errores en los experimentos completos; KLayout DRC externo
 fue ejecutado y quedó limpio para Etapa 9, para la candidata de Etapa 12 y
@@ -474,12 +477,10 @@ de cada corrida están en \ruta{asic/runs/<tag>/final/metrics.json} y
 30 pero aumentó capacitancia a 3 y empeoró la peor transición
 (5,421193 frente a 5,405243\ns{}). La redistribución CTS eliminó los
 57 fanouts residuales, a costa de 468 slews y un margen hold menor.
-Hasta la Etapa 13, ninguna opción eliminó simultáneamente todas las violaciones. Por su
-balance de slew, área, hold y KLayout comprobado, la mejor candidata
-\emph{técnica} sigue siendo \ruta{etapa12_rom_ram_no_delay_ss};
-\ruta{etapa9_rom_ram_util40_debounce} sigue siendo la referencia
-\emph{reglamentaria}; la corrida \ruta{etapa21_combined} sí alcanza
-cero violaciones eléctricas bajo las restricciones disponibles.
+Hasta la Etapa 13, ninguna opción eliminó simultáneamente todas las violaciones. La Etapa 12 fue la mejor candidata técnica previa a las reparaciones
+posteriores; \ruta{etapa21_combined} es ahora la mejor implementación física
+reportada, con cero violaciones eléctricas. La Etapa 9 se conserva como
+referencia histórica reglamentaria de 100 ns y 40\%.
 
 La Etapa 6 identificó rutas de slew asociadas a fetch/decode/execute y a la decodificación de dirección ROM/RAM. Por ejemplo, \ruta{_3648_} alcanzó 6,120624\ns{} frente a un límite de 3\ns{}. Se probaron reparación post-GRT, márgenes de slew/capacitancia y CTS. El mejor balance, GRT70+CTS10, bajó a 143/27/1 violaciones de slew/cap/fanout, pero no cerró; variantes que eliminaron fanout empeoraron slew.
 
