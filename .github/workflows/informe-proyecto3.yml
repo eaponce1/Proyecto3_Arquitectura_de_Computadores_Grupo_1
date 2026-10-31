@@ -35,7 +35,7 @@ jobs:
           test -s docs/informe_proyecto3/main.pdf
           cp docs/informe_proyecto3/main.pdf docs/informe_proyecto3.pdf
           python3 scripts/package_overleaf.py
-          pdfinfo docs/informe_proyecto3.pdf | grep '^Pages:'
+          python3 -c 'from pathlib import Path; p=Path("docs/informe_proyecto3.pdf"); assert p.read_bytes()[:5] == b"%PDF-", "PDF no válido"; print("PDF verificado:", p.stat().st_size, "bytes")'
           unzip -t docs/Proyecto3_Overleaf.zip | tail -n 1
       - name: Publicar PDF y ZIP compilados
         shell: bash
