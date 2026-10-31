@@ -236,14 +236,15 @@ GF180MCU; no se declara equivalencia exhaustiva ni formal.
 
 Las evidencias reproducibles de estas etapas están en `tests/stage21/`,
 `tests/stage22/`, `tests/stage23/`, `reports/stage21/`, `reports/stage22/` y
-`reports/stage24/`.
+`reports/stage24/`. La preparación de entrega y sus limitaciones vigentes
+se resumen en [`docs/entrega_proyecto3.md`](docs/entrega_proyecto3.md).
 
 ### Informe y entrega reproducible
 
-El informe fuente está en `docs/informe_proyecto3/main.tex` y el paquete
-autocontenido para Overleaf en `docs/Proyecto3_Overleaf.zip`. Se compila
-con pdfLaTeX y BibTeX; no necesita `--shell-escape`. No hay un PDF local
-verificado en esta copia del proyecto.
+El informe fuente está en `docs/informe_proyecto3/main.tex`, el paquete
+autocontenido para Overleaf en `docs/Proyecto3_Overleaf.zip` y el PDF
+compilado publicado en [`docs/informe_proyecto3.pdf`](docs/informe_proyecto3.pdf).
+Se compila con pdfLaTeX y BibTeX; no necesita `--shell-escape`.
 
 Los comandos anteriores existen en `Makefile`; los lanzadores de las
 Etapas 12 y 13 se reproducen desde WSL con una etiqueta nueva, sin
