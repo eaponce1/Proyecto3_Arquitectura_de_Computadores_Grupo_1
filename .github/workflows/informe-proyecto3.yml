@@ -1,0 +1,50 @@
+name: Compilar informe Proyecto 3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/informe_proyecto3/*.tex'
+      - 'docs/informe_proyecto3/*.bib'
+      - 'docs/informe_proyecto3/figuras/**'
+      - 'scripts/package_overleaf.py'
+      - '.github/workflows/informe-proyecto3.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  informe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Compilar PDF con latexmk
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          working_directory: docs/informe_proyecto3
+          args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
+      - name: Validar PDF y regenerar ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s docs/informe_proyecto3/main.pdf
+          cp docs/informe_proyecto3/main.pdf docs/informe_proyecto3.pdf
+          python3 scripts/package_overleaf.py
+          pdfinfo docs/informe_proyecto3.pdf | grep '^Pages:'
+          unzip -t docs/Proyecto3_Overleaf.zip | tail -n 1
+      - name: Publicar PDF y ZIP compilados
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/informe_proyecto3.pdf docs/Proyecto3_Overleaf.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualiza PDF y ZIP del informe desde LaTeX"
+            git push
+          fi
