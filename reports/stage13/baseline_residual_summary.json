@@ -1,0 +1,2156 @@
+{
+  "source": "reports\\stage12\\etapa12_rom_ram_no_delay_ss\\violations.json",
+  "def": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\final\\def\\asic_top.def",
+  "def_dbu_per_um": 2000,
+  "counts_max_ss": {
+    "slew": 440,
+    "fanout": 57,
+    "capacitance": 2
+  },
+  "slew_by_classification": {
+    "instruction/ROM/fetch": 193,
+    "data-memory": 38,
+    "reset": 13,
+    "instruction/ROM/fetch+data-memory+register-file+peripheral": 45,
+    "other-combinational": 112,
+    "instruction/ROM/fetch+data-memory+register-file": 37,
+    "instruction/ROM/fetch+register-file": 2
+  },
+  "worst_slew_nets": [
+    {
+      "type": "slew",
+      "net": "_1548_",
+      "count": 10,
+      "worst_value": 5.405243,
+      "worst_slack": -2.405243,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "_4966_",
+          "gf180mcu_fd_sc_mcu7t5v0__or2_1",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_5052_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5096_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5107_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5230_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5252_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5274_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5285_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5307_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5329_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+      ],
+      "classification": "instruction/ROM/fetch",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 258
+    },
+    {
+      "type": "slew",
+      "net": "net860",
+      "count": 11,
+      "worst_value": 5.158673,
+      "worst_slack": -2.158673,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "fanout860",
+          "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_5396_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5407_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5429_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5451_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5473_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5506_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5539_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5561_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5605_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_5716_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and4_1",
+          "pin": "A1"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+      ],
+      "classification": "instruction/ROM/fetch",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 268
+    },
+    {
+      "type": "slew",
+      "net": "\\u_pochoco_soc.data_wdata[4]",
+      "count": 8,
+      "worst_value": 4.678382,
+      "worst_slack": -1.678382,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "_9249_",
+          "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "Q"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_4485_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__nand2_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_6786_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__and2_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_6787_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__aoi222_1",
+          "pin": "B2"
+        },
+        {
+          "instance": "_6837_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__mux2_2",
+          "pin": "I1"
+        },
+        {
+          "instance": "_6856_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__mux2_2",
+          "pin": "I1"
+        },
+        {
+          "instance": "_8271_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__mux2_2",
+          "pin": "I0"
+        },
+        {
+          "instance": "_8386_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__mux2_2",
+          "pin": "I0"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.data_wdata[4]"
+      ],
+      "classification": "data-memory",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 279
+    },
+    {
+      "type": "slew",
+      "net": "net1237",
+      "count": 7,
+      "worst_value": 4.58368,
+      "worst_slack": -1.58368,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "fanout1237",
+          "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "fanout1114",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout1155",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout1176",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout1198",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout1216",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout1235",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "rst_ni"
+      ],
+      "classification": "reset",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 287
+    },
+    {
+      "type": "slew",
+      "net": "net804",
+      "count": 11,
+      "worst_value": 4.190093,
+      "worst_slack": -1.190092,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "fanout804",
+          "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_4363_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__nand2_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_4373_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__nor2_1",
+          "pin": "A2"
+        },
+        {
+          "instance": "_5794_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__oai21_1",
+          "pin": "B"
+        },
+        {
+          "instance": "_6908_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__nor2_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_6932_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__oai31_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_6986_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__aoi21_1",
+          "pin": "B"
+        },
+        {
+          "instance": "_7000_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__oai32_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_7034_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__oai32_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_7052_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__nor3_1",
+          "pin": "A1"
+        },
+        {
+          "instance": "_7182_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__oai22_1",
+          "pin": "B2"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]"
+      ],
+      "classification": "instruction/ROM/fetch",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 294
+    },
+    {
+      "type": "slew",
+      "net": "net300",
+      "count": 8,
+      "worst_value": 4.151794,
+      "worst_slack": -1.151794,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "fanout300",
+          "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "fanout287",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout289",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout290",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout292",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout294",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout296",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout298",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[10]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[11]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[12]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[13]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[14]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[19]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[24]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[25]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[26]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[27]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[28]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[29]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[30]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[3]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[8]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[9]",
+        "\\u_pochoco_soc.u_core.instr_valid_id",
+        "\\u_pochoco_soc.u_core.lsu_busy",
+        "\\u_pochoco_soc.u_core.rf_ready"
+      ],
+      "classification": "instruction/ROM/fetch",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 305
+    },
+    {
+      "type": "slew",
+      "net": "_3503_",
+      "count": 3,
+      "worst_value": 4.007598,
+      "worst_slack": -1.007599,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "_7118_",
+          "gf180mcu_fd_sc_mcu7t5v0__aoi221_2",
+          "ZN"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "fanout57",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout59",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.data_wdata[0]",
+        "\\u_pochoco_soc.data_wdata[1]",
+        "\\u_pochoco_soc.data_wdata[2]",
+        "\\u_pochoco_soc.data_wdata[3]",
+        "\\u_pochoco_soc.data_wdata[4]",
+        "\\u_pochoco_soc.data_wdata[5]",
+        "\\u_pochoco_soc.data_wdata[6]",
+        "\\u_pochoco_soc.data_wdata[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[10]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[11]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[12]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[13]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[14]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[19]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[24]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[25]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[26]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[27]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[28]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[29]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[30]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[3]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[8]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[9]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[15]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[22]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[23]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[7]",
+        "\\u_pochoco_soc.per_rdata[15]",
+        "\\u_pochoco_soc.per_rdata[22]",
+        "\\u_pochoco_soc.per_rdata[23]",
+        "\\u_pochoco_soc.per_rdata[31]",
+        "\\u_pochoco_soc.per_rdata[7]",
+        "\\u_pochoco_soc.rd_is_per",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[0]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[10]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[11]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[12]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[13]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[14]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[15]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[16]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[17]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[18]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[19]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[1]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[20]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[21]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[22]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[2]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[30]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[31]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[3]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[4]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[5]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[6]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[7]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[8]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[9]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[10]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[11]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[12]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[13]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[14]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[15]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[16]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[17]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[18]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[19]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[20]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[21]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[22]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[31]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[8]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[9]",
+        "\\u_pochoco_soc.u_core.pc_id[0]",
+        "\\u_pochoco_soc.u_core.pc_id[10]",
+        "\\u_pochoco_soc.u_core.pc_id[11]",
+        "\\u_pochoco_soc.u_core.pc_id[12]",
+        "\\u_pochoco_soc.u_core.pc_id[13]",
+        "\\u_pochoco_soc.u_core.pc_id[14]",
+        "\\u_pochoco_soc.u_core.pc_id[15]",
+        "\\u_pochoco_soc.u_core.pc_id[16]",
+        "\\u_pochoco_soc.u_core.pc_id[17]",
+        "\\u_pochoco_soc.u_core.pc_id[18]",
+        "\\u_pochoco_soc.u_core.pc_id[19]",
+        "\\u_pochoco_soc.u_core.pc_id[1]",
+        "\\u_pochoco_soc.u_core.pc_id[20]",
+        "\\u_pochoco_soc.u_core.pc_id[21]",
+        "\\u_pochoco_soc.u_core.pc_id[22]",
+        "\\u_pochoco_soc.u_core.pc_id[2]",
+        "\\u_pochoco_soc.u_core.pc_id[30]",
+        "\\u_pochoco_soc.u_core.pc_id[31]",
+        "\\u_pochoco_soc.u_core.pc_id[3]",
+        "\\u_pochoco_soc.u_core.pc_id[4]",
+        "\\u_pochoco_soc.u_core.pc_id[5]",
+        "\\u_pochoco_soc.u_core.pc_id[6]",
+        "\\u_pochoco_soc.u_core.pc_id[7]",
+        "\\u_pochoco_soc.u_core.pc_id[8]",
+        "\\u_pochoco_soc.u_core.pc_id[9]"
+      ],
+      "classification": "instruction/ROM/fetch+data-memory+register-file+peripheral",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 314
+    },
+    {
+      "type": "slew",
+      "net": "_3462_",
+      "count": 3,
+      "worst_value": 3.794204,
+      "worst_slack": -0.794204,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "_7071_",
+          "gf180mcu_fd_sc_mcu7t5v0__aoi221_2",
+          "ZN"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "fanout79",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout81",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.data_wdata[0]",
+        "\\u_pochoco_soc.data_wdata[1]",
+        "\\u_pochoco_soc.data_wdata[2]",
+        "\\u_pochoco_soc.data_wdata[3]",
+        "\\u_pochoco_soc.data_wdata[4]",
+        "\\u_pochoco_soc.data_wdata[5]",
+        "\\u_pochoco_soc.data_wdata[6]",
+        "\\u_pochoco_soc.data_wdata[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[10]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[11]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[12]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[13]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[14]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[24]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[25]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[26]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[27]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[28]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[29]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[30]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[3]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[8]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[9]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[15]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[16]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[23]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[7]",
+        "\\u_pochoco_soc.per_rdata[15]",
+        "\\u_pochoco_soc.per_rdata[16]",
+        "\\u_pochoco_soc.per_rdata[23]",
+        "\\u_pochoco_soc.per_rdata[31]",
+        "\\u_pochoco_soc.per_rdata[7]",
+        "\\u_pochoco_soc.rd_is_per",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[0]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[10]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[11]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[12]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[13]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[14]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[15]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[16]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[1]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[2]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[30]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[31]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[3]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[4]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[5]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[6]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[7]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[8]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[9]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[10]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[11]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[12]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[13]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[14]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[15]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[16]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[31]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[8]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[9]",
+        "\\u_pochoco_soc.u_core.pc_id[0]",
+        "\\u_pochoco_soc.u_core.pc_id[10]",
+        "\\u_pochoco_soc.u_core.pc_id[11]",
+        "\\u_pochoco_soc.u_core.pc_id[12]",
+        "\\u_pochoco_soc.u_core.pc_id[13]",
+        "\\u_pochoco_soc.u_core.pc_id[14]",
+        "\\u_pochoco_soc.u_core.pc_id[15]",
+        "\\u_pochoco_soc.u_core.pc_id[16]",
+        "\\u_pochoco_soc.u_core.pc_id[1]",
+        "\\u_pochoco_soc.u_core.pc_id[2]",
+        "\\u_pochoco_soc.u_core.pc_id[30]",
+        "\\u_pochoco_soc.u_core.pc_id[31]",
+        "\\u_pochoco_soc.u_core.pc_id[3]",
+        "\\u_pochoco_soc.u_core.pc_id[4]",
+        "\\u_pochoco_soc.u_core.pc_id[5]",
+        "\\u_pochoco_soc.u_core.pc_id[6]",
+        "\\u_pochoco_soc.u_core.pc_id[7]",
+        "\\u_pochoco_soc.u_core.pc_id[8]",
+        "\\u_pochoco_soc.u_core.pc_id[9]"
+      ],
+      "classification": "instruction/ROM/fetch+data-memory+register-file+peripheral",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 316
+    },
+    {
+      "type": "slew",
+      "net": "_3439_",
+      "count": 3,
+      "worst_value": 3.789024,
+      "worst_slack": -0.789024,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "_7045_",
+          "gf180mcu_fd_sc_mcu7t5v0__aoi211_2",
+          "ZN"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "fanout90",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout92",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.data_wdata[0]",
+        "\\u_pochoco_soc.data_wdata[1]",
+        "\\u_pochoco_soc.data_wdata[2]",
+        "\\u_pochoco_soc.data_wdata[3]",
+        "\\u_pochoco_soc.data_wdata[4]",
+        "\\u_pochoco_soc.data_wdata[5]",
+        "\\u_pochoco_soc.data_wdata[6]",
+        "\\u_pochoco_soc.data_wdata[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[10]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[11]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[12]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[13]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[14]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[24]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[25]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[26]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[27]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[28]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[29]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[30]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[3]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[8]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[9]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[13]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[15]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[23]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[29]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[7]",
+        "\\u_pochoco_soc.per_rdata[13]",
+        "\\u_pochoco_soc.per_rdata[15]",
+        "\\u_pochoco_soc.per_rdata[23]",
+        "\\u_pochoco_soc.per_rdata[29]",
+        "\\u_pochoco_soc.per_rdata[31]",
+        "\\u_pochoco_soc.per_rdata[7]",
+        "\\u_pochoco_soc.rd_is_per",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[0]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[10]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[11]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[12]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[13]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[1]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[27]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[28]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[29]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[2]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[30]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[31]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[3]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[4]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[5]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[6]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[7]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[8]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_a_o[9]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[10]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[11]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[12]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[13]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[30]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[31]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[8]",
+        "\\u_pochoco_soc.u_core.genblk1.g_asic_regfile.u_rf.rdata_b_o[9]",
+        "\\u_pochoco_soc.u_core.pc_id[0]",
+        "\\u_pochoco_soc.u_core.pc_id[10]",
+        "\\u_pochoco_soc.u_core.pc_id[11]",
+        "\\u_pochoco_soc.u_core.pc_id[12]",
+        "\\u_pochoco_soc.u_core.pc_id[13]",
+        "\\u_pochoco_soc.u_core.pc_id[1]",
+        "\\u_pochoco_soc.u_core.pc_id[27]",
+        "\\u_pochoco_soc.u_core.pc_id[28]",
+        "\\u_pochoco_soc.u_core.pc_id[29]",
+        "\\u_pochoco_soc.u_core.pc_id[2]",
+        "\\u_pochoco_soc.u_core.pc_id[30]",
+        "\\u_pochoco_soc.u_core.pc_id[31]",
+        "\\u_pochoco_soc.u_core.pc_id[3]",
+        "\\u_pochoco_soc.u_core.pc_id[4]",
+        "\\u_pochoco_soc.u_core.pc_id[5]",
+        "\\u_pochoco_soc.u_core.pc_id[6]",
+        "\\u_pochoco_soc.u_core.pc_id[7]",
+        "\\u_pochoco_soc.u_core.pc_id[8]",
+        "\\u_pochoco_soc.u_core.pc_id[9]"
+      ],
+      "classification": "instruction/ROM/fetch+data-memory+register-file+peripheral",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 319
+    },
+    {
+      "type": "slew",
+      "net": "net271",
+      "count": 6,
+      "worst_value": 3.766196,
+      "worst_slack": -0.766196,
+      "limit": 3.0,
+      "drivers": [
+        [
+          "fanout271",
+          "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "fanout258",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout260",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout261",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout263",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        },
+        {
+          "instance": "fanout270",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__buf_1",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[10]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[11]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[12]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[13]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[14]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[19]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[24]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[25]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[26]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[27]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[28]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[29]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[30]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[3]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[7]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[8]",
+        "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[9]",
+        "\\u_pochoco_soc.u_core.instr_valid_id",
+        "\\u_pochoco_soc.u_core.lsu_busy",
+        "\\u_pochoco_soc.u_core.rf_ready"
+      ],
+      "classification": "instruction/ROM/fetch",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 322
+    }
+  ],
+  "capacitance_nets": [
+    {
+      "type": "capacitance",
+      "net": "clknet_0_clk_i",
+      "count": 1,
+      "worst_value": 0.336702,
+      "worst_slack": -0.136702,
+      "limit": 0.2,
+      "drivers": [
+        [
+          "clkbuf_0_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "clkbuf_3_0__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_1__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_2__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_3__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_4__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_5__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_6__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_3_7__f_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 765
+    },
+    {
+      "type": "capacitance",
+      "net": "clknet_3_6__leaf_clk_i",
+      "count": 1,
+      "worst_value": 0.234354,
+      "worst_slack": -0.034354,
+      "limit": 0.2,
+      "drivers": [
+        [
+          "clkbuf_3_6__f_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "clkbuf_leaf_28_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_leaf_29_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_leaf_47_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_leaf_48_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_leaf_49_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_leaf_8_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkbuf_leaf_9_clk_i",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        },
+        {
+          "instance": "clkload4",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 766
+    }
+  ],
+  "worst_fanout_nets": [
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_36_clk_i",
+      "count": 1,
+      "worst_value": 19.0,
+      "worst_slack": -9.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_36_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_9048_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9049_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9051_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9079_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9083_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9084_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9085_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9086_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9087_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9092_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9093_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9095_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9146_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9147_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9148_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9154_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9211_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9212_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9213_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 703
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_38_clk_i",
+      "count": 1,
+      "worst_value": 19.0,
+      "worst_slack": -9.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_38_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_9052_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9076_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9078_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9080_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9081_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9082_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9088_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9090_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9091_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9124_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9129_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9130_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9203_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9207_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9208_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9209_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9210_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9239_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload33",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 704
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_5_clk_i",
+      "count": 1,
+      "worst_value": 19.0,
+      "worst_slack": -9.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_5_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8544_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8562_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8578_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8640_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8658_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8674_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8699_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8706_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8763_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8802_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8818_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8834_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8882_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8898_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8914_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8923_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8930_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8987_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9308_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 705
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_3_clk_i",
+      "count": 1,
+      "worst_value": 18.0,
+      "worst_slack": -8.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_3_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8548_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8580_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8612_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8676_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8690_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8708_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8722_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8754_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8772_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8786_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8804_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8836_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8868_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8946_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8957_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8964_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8996_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload8",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkinv_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 706
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_43_clk_i",
+      "count": 1,
+      "worst_value": 18.0,
+      "worst_slack": -8.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_43_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_9060_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9063_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9101_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9104_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9105_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9106_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9107_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9219_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9220_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9221_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9222_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9223_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9224_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9225_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9226_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9227_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9228_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload37",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkinv_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 707
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_10_clk_i",
+      "count": 1,
+      "worst_value": 17.0,
+      "worst_slack": -7.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_10_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8569_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8656_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8680_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8712_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8752_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8770_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8825_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8857_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8872_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8889_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8912_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8921_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8994_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9000_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9008_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9274_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload14",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 708
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_12_clk_i",
+      "count": 1,
+      "worst_value": 17.0,
+      "worst_slack": -7.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_12_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8546_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8560_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8575_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8639_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8651_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8703_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8738_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8816_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8848_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8880_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8944_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8962_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8976_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9269_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9289_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9290_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload10",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__inv_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 709
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_13_clk_i",
+      "count": 1,
+      "worst_value": 17.0,
+      "worst_slack": -7.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_13_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8543_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8607_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8671_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8735_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8736_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8767_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8768_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8799_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8831_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8863_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8864_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8895_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8927_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8959_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8960_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8991_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload11",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__inv_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 710
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_1_clk_i",
+      "count": 1,
+      "worst_value": 17.0,
+      "worst_slack": -7.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_1_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8572_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8581_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8637_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8678_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8742_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8805_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8829_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8870_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8902_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8931_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8933_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8934_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8997_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9256_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9263_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9288_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "clkload13",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__clkbuf_2",
+          "pin": "I"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 711
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_29_clk_i",
+      "count": 1,
+      "worst_value": 17.0,
+      "worst_slack": -7.0,
+      "limit": 10.0,
+      "drivers": [
+        [
+          "clkbuf_leaf_29_clk_i",
+          "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+          "Z"
+        ]
+      ],
+      "loads": [
+        {
+          "instance": "_8450_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8451_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8452_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8454_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8455_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8456_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8472_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8482_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8483_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8484_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_8487_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9029_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9032_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9033_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9034_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9036_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        },
+        {
+          "instance": "_9281_",
+          "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+          "pin": "CLK"
+        }
+      ],
+      "roots": [
+        "clk_i"
+      ],
+      "classification": "clock/CTS",
+      "source": "asic\\runs\\etapa12_rom_ram_no_delay_ss\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+      "line": 712
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+25-Oct-2026 19:02:23 | INFO    | Your Klayout version is: KLayout 0.30.7
+25-Oct-2026 19:02:23 | INFO    | ## Generating template with for the following rule tables: ['via3.drc']
+25-Oct-2026 19:02:23 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:23 | INFO    | ## Generating template with for the following rule tables: ['lvpwell.drc']
+25-Oct-2026 19:02:23 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['sram_3p3.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['via1.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['via4.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['sab.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['mim_a.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['mcell.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['contact.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['esd.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['poly2.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['metaltop_30k.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['ldnmos.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['nwell.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['metal2.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['drc_bjt.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['metal4.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['lvs_bjt.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['via2.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['ymtp_mk.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['metal3.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['pres.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['dummy_exclude.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['nat.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['efuse.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['hres.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['via5.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['geom.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['dualgate.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['lres.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['comp.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['metal1.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['dnwell.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:24 | INFO    | ## Generating template with for the following rule tables: ['metal5.drc']
+25-Oct-2026 19:02:24 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['otp_mk.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['pplus.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['sram_5p0.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['nplus.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['mim_b.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['metaltop.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | ## Generating template with for the following rule tables: ['ldpmos.drc']
+25-Oct-2026 19:02:25 | INFO    | ## Your run dir located at: /work/reports/stage12/klayout_no_delay_ss
+25-Oct-2026 19:02:25 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design via3 on cell asic_top:
+25-Oct-2026 19:02:25 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design lvpwell on cell asic_top:
+25-Oct-2026 19:02:25 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design sram_3p3 on cell asic_top:
+25-Oct-2026 19:02:25 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design via1 on cell asic_top:
+25-Oct-2026 19:02:49 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design via4 on cell asic_top:
+25-Oct-2026 19:02:52 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design sab on cell asic_top:
+25-Oct-2026 19:02:58 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design mim_a on cell asic_top:
+25-Oct-2026 19:03:14 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design mcell on cell asic_top:
+25-Oct-2026 19:03:15 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design contact on cell asic_top:
+25-Oct-2026 19:03:19 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design esd on cell asic_top:
+25-Oct-2026 19:03:22 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design poly2 on cell asic_top:
+25-Oct-2026 19:03:37 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metaltop_30k on cell asic_top:
+25-Oct-2026 19:03:47 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design ldnmos on cell asic_top:
+25-Oct-2026 19:03:58 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design nwell on cell asic_top:
+25-Oct-2026 19:04:00 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metal2 on cell asic_top:
+25-Oct-2026 19:04:17 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design drc_bjt on cell asic_top:
+25-Oct-2026 19:04:25 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metal4 on cell asic_top:
+25-Oct-2026 19:04:34 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design lvs_bjt on cell asic_top:
+25-Oct-2026 19:04:38 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design via2 on cell asic_top:
+25-Oct-2026 19:04:42 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design ymtp_mk on cell asic_top:
+25-Oct-2026 19:04:49 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metal3 on cell asic_top:
+25-Oct-2026 19:04:56 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design pres on cell asic_top:
+25-Oct-2026 19:05:07 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design dummy_exclude on cell asic_top:
+25-Oct-2026 19:05:13 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design nat on cell asic_top:
+25-Oct-2026 19:05:18 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design efuse on cell asic_top:
+25-Oct-2026 19:05:23 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design hres on cell asic_top:
+25-Oct-2026 19:05:30 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design via5 on cell asic_top:
+25-Oct-2026 19:05:47 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design geom on cell asic_top:
+25-Oct-2026 19:05:50 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design dualgate on cell asic_top:
+25-Oct-2026 19:05:59 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design lres on cell asic_top:
+25-Oct-2026 19:06:00 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design comp on cell asic_top:
+25-Oct-2026 19:06:23 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metal1 on cell asic_top:
+25-Oct-2026 19:06:26 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design dnwell on cell asic_top:
+25-Oct-2026 19:06:32 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metal5 on cell asic_top:
+25-Oct-2026 19:06:45 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design otp_mk on cell asic_top:
+25-Oct-2026 19:06:45 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design pplus on cell asic_top:
+25-Oct-2026 19:06:46 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design sram_5p0 on cell asic_top:
+25-Oct-2026 19:06:57 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design nplus on cell asic_top:
+25-Oct-2026 19:06:58 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design mim_b on cell asic_top:
+25-Oct-2026 19:06:59 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design metaltop on cell asic_top:
+25-Oct-2026 19:07:10 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa12_rom_ram_no_delay_ss/final/gds/asic_top.gds checks on design ldpmos on cell asic_top:
+25-Oct-2026 19:07:31 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.

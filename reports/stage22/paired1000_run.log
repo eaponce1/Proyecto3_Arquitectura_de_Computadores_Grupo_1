@@ -1,0 +1,2 @@
+BENCH|mode=paired|cycles=1008|mismatches=0
+tests/stage22/stage22_benchmark_tb.v:55: $finish called at 10075000 (1ps)

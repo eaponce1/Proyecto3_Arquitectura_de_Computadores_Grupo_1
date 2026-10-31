@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <style>
+    text { font-family: Arial, sans-serif; fill: #172033; }
+    .title { font-size: 22px; font-weight: 700; }
+    .axis { stroke: #536078; stroke-width: 1.5; }
+    .grid { stroke: #d8dee8; stroke-width: 1; stroke-dasharray: 4 4; }
+    .blue { stroke: #2563eb; fill: none; stroke-width: 3; }
+    .orange { stroke: #dc6b19; fill: none; stroke-width: 3; }
+    .dotb { fill: #2563eb; }
+    .doto { fill: #dc6b19; }
+    .tick { font-size: 12px; fill: #536078; }
+    .value { font-size: 13px; font-weight: 600; }
+    .caption { font-size: 13px; fill: #536078; }
+  </style>
+  <text x="40" y="34" class="title">Efecto de la utilización real — tres corridas baseline</text>
+  <text x="40" y="57" class="caption">Valores extraídos de final/metrics.json y 39-openroad-globalrouting/openroad-globalrouting.log.</text>
+
+  <!-- Panel 1 -->
+  <text x="295" y="91" text-anchor="middle" class="value">Violaciones de max slew</text>
+  <line x1="90" y1="400" x2="500" y2="400" class="axis"/>
+  <line x1="90" y1="100" x2="90" y2="400" class="axis"/>
+  <line x1="90" y1="300" x2="500" y2="300" class="grid"/>
+  <line x1="90" y1="200" x2="500" y2="200" class="grid"/>
+  <line x1="90" y1="100" x2="500" y2="100" class="grid"/>
+  <text x="78" y="404" text-anchor="end" class="tick">0</text>
+  <text x="78" y="304" text-anchor="end" class="tick">1200</text>
+  <text x="78" y="204" text-anchor="end" class="tick">2400</text>
+  <text x="78" y="104" text-anchor="end" class="tick">3600</text>
+  <polyline points="90,120 295,149 500,200" class="blue"/>
+  <circle cx="90" cy="120" r="6" class="dotb"/>
+  <circle cx="295" cy="149" r="6" class="dotb"/>
+  <circle cx="500" cy="200" r="6" class="dotb"/>
+  <text x="108" y="132" text-anchor="start" class="value">3364</text>
+  <text x="295" y="137" text-anchor="middle" class="value">3008</text>
+  <text x="500" y="188" text-anchor="middle" class="value">2400</text>
+  <text x="90" y="423" text-anchor="middle" class="tick">39,85 %</text>
+  <text x="295" y="423" text-anchor="middle" class="tick">51,88 %</text>
+  <text x="500" y="423" text-anchor="middle" class="tick">64,41 %</text>
+  <text x="295" y="451" text-anchor="middle" class="caption">Utilización real post-route</text>
+
+  <!-- Panel 2 -->
+  <text x="855" y="91" text-anchor="middle" class="value">Uso global de recursos de routing</text>
+  <line x1="650" y1="400" x2="1060" y2="400" class="axis"/>
+  <line x1="650" y1="100" x2="650" y2="400" class="axis"/>
+  <line x1="650" y1="314" x2="1060" y2="314" class="grid"/>
+  <line x1="650" y1="229" x2="1060" y2="229" class="grid"/>
+  <line x1="650" y1="143" x2="1060" y2="143" class="grid"/>
+  <text x="638" y="404" text-anchor="end" class="tick">0 %</text>
+  <text x="638" y="318" text-anchor="end" class="tick">10 %</text>
+  <text x="638" y="233" text-anchor="end" class="tick">20 %</text>
+  <text x="638" y="147" text-anchor="end" class="tick">30 %</text>
+  <polyline points="650,224 855,188 1060,155" class="orange"/>
+  <circle cx="650" cy="224" r="6" class="doto"/>
+  <circle cx="855" cy="188" r="6" class="doto"/>
+  <circle cx="1060" cy="155" r="6" class="doto"/>
+  <text x="650" y="212" text-anchor="middle" class="value">20,49 %</text>
+  <text x="855" y="176" text-anchor="middle" class="value">24,78 %</text>
+  <text x="1060" y="143" text-anchor="middle" class="value">28,64 %</text>
+  <text x="650" y="423" text-anchor="middle" class="tick">39,85 %</text>
+  <text x="855" y="423" text-anchor="middle" class="tick">51,88 %</text>
+  <text x="1060" y="423" text-anchor="middle" class="tick">64,41 %</text>
+  <text x="855" y="451" text-anchor="middle" class="caption">Utilización real post-route</text>
+
+  <text x="550" y="492" text-anchor="middle" class="caption">Las tres corridas terminaron con route__drc_errors = 0; el gráfico no implica cierre eléctrico.</text>
+</svg>

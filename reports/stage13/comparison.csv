@@ -1,0 +1,4 @@
+experiment,tag,finished,slew,cap,fanout,worst_slew_ns,worst_cap_pf,worst_fanout,setup_ws_ns,hold_ws_ns,setup_wns_ns,hold_wns_ns,setup_tns_ns,hold_tns_ns,stdcell_um2,die_um2,utilization_pct,grt_usage_pct,grt_overflow,routing_drc,magic_drc,lvs,antenna_nets,synthesis_identical
+reference,etapa12_rom_ram_no_delay_ss,True,440,2,57,5.405243,0.336702,19.0,53.64685203468914,0.054793393595500665,0,0,0,0,177912,375554,51.2625,24.6,0/0/0,0,0,0,0,True
+D1 post-GRT,etapa13_rom_ram_postgrt,True,410,3,57,5.421193,0.33921,19.0,53.159007589373786,0.05479317155088946,0,0,0,0,177917,375554,51.2638,24.6,0/0/0,0,0,0,0,True
+C1 clock,etapa13_rom_ram_cts_retry,True,468,1,0,5.536282,0.20108,,52.43060534134973,0.010418333157733054,0,0,0,0,186061,375554,53.610400000000006,25.14,0/0/0,0,0,0,0,True

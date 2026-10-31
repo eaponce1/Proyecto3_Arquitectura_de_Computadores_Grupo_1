@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "version": 2,
+    "flow": "Classic"
+  },
+  "DESIGN_NAME": "asic_top",
+  "PDK": "gf180mcuD",
+  "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+  "CLOCK_PORT": "clk_i",
+  "CLOCK_PERIOD": 100,
+  "FP_CORE_UTIL": 50,
+  "RUN_POST_GRT_DESIGN_REPAIR": true,
+  "GRT_DESIGN_REPAIR_MAX_SLEW_PCT": 70,
+  "GRT_DESIGN_REPAIR_MAX_CAP_PCT": 30,
+  "CTS_SINK_CLUSTERING_SIZE": 10,
+  "SYNTH_PARAMETERS": [
+    "MemoryArchitecture=1"
+  ],
+  "VERILOG_FILES": [
+    "dir::../rtl/asic_top.v",
+    "dir::../rtl/pochoco_soc.v",
+    "dir::../rtl/pochoco_periph.v",
+    "dir::../rtl/pochoco_spi_slave.v",
+    "dir::../rtl/pochoco_memory_rom_ram.v",
+    "dir::../rtl/pochoco_memory_unified_ff.v",
+    "dir::generated/game_rom.v",
+    "dir::baseline/espino_alu.v",
+    "dir::../rtl/espino_core/espino_controller.v",
+    "dir::../rtl/espino_core/espino_core.v",
+    "dir::../rtl/espino_core/espino_decoder.v",
+    "dir::../rtl/espino_core/espino_id_stage.v",
+    "dir::../rtl/espino_core/espino_if_stage.v",
+    "dir::../rtl/espino_core/espino_load_store_unit.v",
+    "dir::../rtl/espino_core/espino_register_file_ff.v"
+  ]
+}

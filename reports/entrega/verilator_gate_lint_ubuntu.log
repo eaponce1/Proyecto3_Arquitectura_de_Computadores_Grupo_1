@@ -1,0 +1,59 @@
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6621:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+ 6621 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, 1'b0, 1'b0, MGM_CLK0, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7213:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+ 7213 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, 1'b0, MGM_P0, MGM_CLK0, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8434:39: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+ 8434 |  gf180mcu_fd_sc_mcu7t5v0__udp_hn_iq_ff( IQ1, MGM_C0, MGM_P0, MGM_CLK0, MGM_D0, notifier );
+      |                                       ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9026:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+ 9026 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, MGM_C0, 1'b0, MGM_CLK0, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9389:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+ 9389 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, 1'b0, 1'b0, CLK, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9979:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+ 9979 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, 1'b0, MGM_P0, CLK, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11198:39: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+11198 |  gf180mcu_fd_sc_mcu7t5v0__udp_hn_iq_ff( IQ1, MGM_C0, MGM_P0, CLK, MGM_D0, notifier );
+      |                                       ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11788:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+11788 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, MGM_C0, 1'b0, CLK, MGM_D0, notifier );
+      |                                      ^
+%Error-UNSUPPORTED: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13625:6: Unsupported: Strength specifier on this gate type
+13625 |  buf (weak0, weak1) MGM_BG_0( Z, MGM_WB_0 );
+      |      ^
+                    ... For error description see https://verilator.org/warn/UNSUPPORTED?v=5.020
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14087:41: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+14087 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_latch( IQ3, 1'b0, 1'b0, CLKN, MGM_D0, notifier );
+      |                                         ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14555:41: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+14555 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_latch( IQ2, 1'b0, 1'b0, MGM_EN0, MGM_D0, notifier );
+      |                                         ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15868:41: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+15868 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_latch( IQ1, 1'b0, 1'b0, E, MGM_D0, notifier );
+      |                                         ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16348:41: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+16348 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_latch( IQ2, MGM_C0, 1'b0, E, D, notifier );
+      |                                         ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17241:42: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+17241 |  gf180mcu_fd_sc_mcu7t5v0__udp_hn_iq_latch( IQ2, MGM_C0, MGM_P0, E, D, notifier );
+      |                                          ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17721:41: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+17721 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_latch( IQ2, 1'b0, MGM_P0, E, D, notifier );
+      |                                         ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:26786:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+26786 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, 1'b0, 1'b0, CLK, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:29407:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+29407 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, 1'b0, MGM_P0, CLK, MGM_D0, notifier );
+      |                                      ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35513:39: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+35513 |  gf180mcu_fd_sc_mcu7t5v0__udp_hn_iq_ff( IQ1, MGM_C0, MGM_P0, CLK, MGM_D0, notifier );
+      |                                       ^
+%Error: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38170:38: syntax error, unexpected '(', expecting IDENTIFIER or randomize
+38170 |  gf180mcu_fd_sc_mcu7t5v0__udp_n_iq_ff( IQ1, MGM_C0, 1'b0, CLK, MGM_D0, notifier );
+      |                                      ^
+%Error: Exiting due to 19 error(s)

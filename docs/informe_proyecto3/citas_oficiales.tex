@@ -1,0 +1,36 @@
+% Fragmento integrado desde main.tex con \input{citas_oficiales.tex}.
+% Para BibTeX clásico, agregar al final del informe:
+% \bibliographystyle{IEEEtran}
+% \bibliography{referencias}
+%
+% Con biblatex, usar en el preámbulo:
+% \addbibresource{referencias.bib}
+% y \printbibliography en lugar de los dos comandos anteriores.
+
+\subsection{Flujo RTL a GDSII con LibreLane}
+La implementación ASIC se ejecutó con LibreLane 3.0.16 en Docker/WSL. LibreLane
+acepta configuraciones JSON validadas y organiza un flujo reproducible de
+implementación digital desde RTL hasta las vistas físicas. La configuración
+reglamentaria usa \texttt{DESIGN\_NAME=asic\_top}, \texttt{CLOCK\_PORT=clk\_i},
+\texttt{CLOCK\_PERIOD=100 ns} y \texttt{FP\_CORE\_UTIL=40}.
+La documentación oficial se usa para describir el flujo y sus parámetros;
+las métricas de este proyecto provienen exclusivamente de sus logs y reportes
+originales~\cite{librelane_docs}.
+
+\subsection{Tecnología GF180MCU y biblioteca estándar}
+El flujo utiliza la variante instalada \texttt{gf180mcuD}, correspondiente a
+la familia de tecnología GF180MCU, con la revisión de \texttt{open\_pdks}
+\texttt{8afc8346a57fe1ab7934ba5a6056ea8b43078e71}. La biblioteca seleccionada
+es \texttt{gf180mcu\_fd\_sc\_mcu7t5v0}, una biblioteca estándar de siete
+tracks documentada por el PDK. Esta referencia respalda la procedencia de las
+vistas tecnológicas y de celdas, no reemplaza la revisión exacta registrada en
+las corridas~\cite{gf180mcu_pdk_docs}.
+
+\subsection{Implementación física y análisis de timing con OpenROAD}
+LibreLane invoca OpenROAD para inicialización del floorplan, placement, CTS,
+routing, extracción RC y STA post-route. El uso de utilización para dimensionar
+el core, la inspección de congestión y el análisis después de extracción son
+coherentes con las capacidades documentadas de OpenROAD~\cite{openroad_docs}.
+Los valores de WNS, TNS, DRC, LVS, antena y violaciones eléctricas presentados
+en este informe se toman de los reportes originales de LibreLane/OpenROAD; no
+se deducen de esta documentación.

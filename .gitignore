@@ -1,0 +1,53 @@
+# Local tool installations and Python caches.
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated FPGA bitstream/intermediates; sources and pin constraints remain.
+/game_top.asc
+/game_top.bin
+/game_top.json
+
+# Simulation and editor intermediates (logs/VCD under tests/stage7/evidence stay).
+*.vvp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local LaTeX build outputs; the Overleaf ZIP and figures are retained.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+/docs/informe_proyecto3/main.pdf
+
+# Full original PnR tree (~33.5 GiB) stays on disk. Selected immutable
+# reports and candidate GDSII copies for delivery live in reports/entrega/.
+/asic/runs/
+
+# Bulky, regenerable diagnostic dumps and an experimental waveform.
+# Their originals remain on disk; compact summaries, selected STA reports,
+# the Stage 7 waveforms, and candidate GDSII files remain included.
+/reports/stage12/*/violations.json
+/reports/stage13/*/violations.json
+/tests/stage10/evidence/*.vcd
+
+# Original machine logs containing local installation paths stay untouched
+# on disk. The path-free, byte-identical key metrics and STA reports are
+# selected in reports/entrega/ for publication.
+/reports/stage12/*.log
+/reports/stage13/*.log
+/reports/stage12/cell_pin_directions.json
+/reports/stage12/*/summary.json
+/reports/stage13/*/summary.json
+/reports/stage12/*/worst_*.rpt
+/reports/stage12/*/all_electrical_max_ss_v*.rpt
+/reports/stage13/*_manifest.json
+/tests/stage7/evidence/compile.log

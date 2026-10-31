@@ -1,0 +1,11 @@
+orden,tipo,pin,limite,valor,slack,red_o_origen,clasificacion,evidencia_original
+1,slew,_7298_/ZN,3.000000,6.120624,-3.120624,_3648_,fetch/decode/execute combinacional,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+2,slew,fanout36/I,3.000000,6.120624,-3.120624,_3648_,fetch/decode/execute combinacional,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+3,slew,fanout37/I,3.000000,6.120624,-3.120624,_3648_,fetch/decode/execute combinacional,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+4,slew,_6286_/ZN,3.000000,5.551406,-2.551406,_2730_,decodificacion de direccion ROM/RAM,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+5,slew,_6289_/A2,3.000000,5.551406,-2.551406,_2730_,decodificacion de direccion ROM/RAM,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+6,slew,_6746_/A1,3.000000,5.551406,-2.551406,_2730_,decodificacion de direccion ROM/RAM,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+7,slew,load_slew360/I,3.000000,5.551406,-2.551406,_2730_,decodificacion de direccion ROM/RAM,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+8,slew,_5476_/A2,3.000000,5.500853,-2.500853,net383,fetch/decode desde a_rdata_o,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+9,slew,_5573_/B1,3.000000,5.500855,-2.500855,net383,fetch/decode desde a_rdata_o,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt
+10,slew,_5717_/A2,3.000000,5.500852,-2.500852,net383,fetch/decode desde a_rdata_o,55-openroad-stapostpnr/max_ss_125C_4v50/checks.rpt

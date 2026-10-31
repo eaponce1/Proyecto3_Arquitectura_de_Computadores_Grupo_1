@@ -1,0 +1,2 @@
+BENCH|mode=rtl|cycles=100007|mismatches=0
+- tests/stage22/stage22_benchmark_tb.v:55: Verilog $finish

@@ -1,0 +1,15 @@
+VCD info: dumpfile tests/stage10/evidence/rtl_compare.vcd opened for output.
+RESULT|B|cycle=1547|score=0|display=ee|match=yes
+RESULT|ROUND1|response_cycles=47|score=1|match=yes
+RESULT|ROUND2|response_cycles=54|score=2|match=yes
+RESULT|ROUND3|response_cycles=61|score=3|match=yes
+RESULT|ROUND4|response_cycles=68|score=4|match=yes
+RESULT|ROUND5|response_cycles=75|score=5|match=yes
+RESULT|ROUND6|response_cycles=82|score=6|match=yes
+RESULT|ROUND7|response_cycles=89|score=7|match=yes
+RESULT|ROUND8|response_cycles=96|score=8|match=yes
+RESULT|ROUND9|response_cycles=103|score=9|match=yes
+RESULT|ROUND10|response_cycles=110|score=10|match=yes
+RESULT|C|rounds=10|average=01|mismatches=0|match=yes
+PASS stage10 RTL cycle comparison at cycle 10551
+tests/stage10/stage10_rtl_compare_tb.v:113: $finish called at 105505000 (1ps)

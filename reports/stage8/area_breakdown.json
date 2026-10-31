@@ -1,0 +1,64 @@
+{
+  "method": "backward cone from the 32 mapped cycle_q flip-flops in hierarchy-preserved pochoco_periph",
+  "counter_register_bits": 32,
+  "counter_cells": 97,
+  "counter_cells_by_type": {
+    "gf180mcu_fd_sc_mcu7t5v0__and2_1": 6,
+    "gf180mcu_fd_sc_mcu7t5v0__and4_1": 7,
+    "gf180mcu_fd_sc_mcu7t5v0__aoi21_1": 7,
+    "gf180mcu_fd_sc_mcu7t5v0__clkinv_1": 4,
+    "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1": 32,
+    "gf180mcu_fd_sc_mcu7t5v0__nand2_1": 3,
+    "gf180mcu_fd_sc_mcu7t5v0__nand3_1": 3,
+    "gf180mcu_fd_sc_mcu7t5v0__nand4_1": 2,
+    "gf180mcu_fd_sc_mcu7t5v0__nor2_1": 8,
+    "gf180mcu_fd_sc_mcu7t5v0__nor4_1": 1,
+    "gf180mcu_fd_sc_mcu7t5v0__xnor2_1": 7,
+    "gf180mcu_fd_sc_mcu7t5v0__xor2_1": 17
+  },
+  "counter_area_um2": 3714.2783999999997,
+  "hierarchical_design_area_um2": 141924.0704,
+  "counter_fraction_percent": 2.617088411804739,
+  "register_file_area_um2": 69071.968,
+  "alu_area_um2": 7448.3136,
+  "largest_leaf_module": "espino_register_file_ff",
+  "modules": {
+    "$paramod$1ac309f2d34863b5008c4152e12c8ffd16e2ccbe\\espino_core": 97752.256,
+    "$paramod$e6d475df9406a45b481f3c4a4e972340ff4a62ee\\pochoco_soc": 141924.0704,
+    "$paramod\\espino_if_stage\\BootAddr=32'00000000000000000000000000000000": 8183.7056,
+    "\\asic_top": 141924.0704,
+    "\\espino_alu": 7448.3136,
+    "\\espino_controller": 70.2464,
+    "\\espino_decoder": 2287.3984,
+    "\\espino_id_stage": 18000.64,
+    "\\espino_load_store_unit": 2425.696,
+    "\\espino_register_file_ff": 69071.968,
+    "\\game_rom": 9568.8768,
+    "\\pochoco_memory_rom_ram": 19660.2112,
+    "\\pochoco_periph": 17436.4736,
+    "\\pochoco_spi_slave": 5806.304
+  },
+  "flat_final_cell_count": 5140,
+  "flat_final_top_five_cells": [
+    {
+      "cell": "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+      "count": 871
+    },
+    {
+      "cell": "gf180mcu_fd_sc_mcu7t5v0__nand2_1",
+      "count": 841
+    },
+    {
+      "cell": "gf180mcu_fd_sc_mcu7t5v0__oai21_1",
+      "count": 588
+    },
+    {
+      "cell": "gf180mcu_fd_sc_mcu7t5v0__nor2_1",
+      "count": 452
+    },
+    {
+      "cell": "gf180mcu_fd_sc_mcu7t5v0__aoi21_1",
+      "count": 409
+    }
+  ]
+}

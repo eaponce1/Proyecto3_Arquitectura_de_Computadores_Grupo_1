@@ -1,0 +1,3 @@
+#!/bin/sh
+# Minimal compatibility shim for the GF180MCU KLayout runset logger.
+echo "  0K  0K  0K  0K  0K  0K  0K  0K"

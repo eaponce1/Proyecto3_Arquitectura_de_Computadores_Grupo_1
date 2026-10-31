@@ -1,0 +1,17 @@
+VCD info: dumpfile tests/stage7/evidence/post_synth.vcd opened for output.
+CHECKPOINT|warmup|cycle=37|leds=f
+RESULT|B|target=4|pressed=1|response_cycles=37|rtl_score=0|gate_score=0|display=ee|state=round_restarted
+RESULT|ROUND1|target=8|response_cycles=47|rtl_score=1|gate_score=1|rtl_display=00|gate_display=00|match=yes
+RESULT|A|target=8|response_cycles=47|rtl_cycles=47|gate_cycles=47|rtl_score=1|gate_score=1|state=round_complete
+RESULT|ROUND2|target=4|response_cycles=54|rtl_score=2|gate_score=2|rtl_display=00|gate_display=00|match=yes
+RESULT|ROUND3|target=4|response_cycles=61|rtl_score=3|gate_score=3|rtl_display=00|gate_display=00|match=yes
+RESULT|ROUND4|target=8|response_cycles=68|rtl_score=4|gate_score=4|rtl_display=00|gate_display=00|match=yes
+RESULT|ROUND5|target=4|response_cycles=75|rtl_score=5|gate_score=5|rtl_display=00|gate_display=00|match=yes
+RESULT|ROUND6|target=2|response_cycles=82|rtl_score=6|gate_score=6|rtl_display=01|gate_display=01|match=yes
+RESULT|ROUND7|target=4|response_cycles=89|rtl_score=7|gate_score=7|rtl_display=01|gate_display=01|match=yes
+RESULT|ROUND8|target=2|response_cycles=96|rtl_score=8|gate_score=8|rtl_display=01|gate_display=01|match=yes
+RESULT|ROUND9|target=8|response_cycles=103|rtl_score=9|gate_score=9|rtl_display=01|gate_display=01|match=yes
+RESULT|ROUND10|target=4|response_cycles=110|rtl_score=10|gate_score=10|rtl_display=01|gate_display=01|match=yes
+RESULT|C|rounds=10|rtl_score=10|gate_score=10|rtl_average=01|gate_average=01|mismatches=0|state=hang
+PASS|stage7|cycles=10551
+tests/stage7/stage7_tb.v:180: $finish called at 105505000 (1ps)

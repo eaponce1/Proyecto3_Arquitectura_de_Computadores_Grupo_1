@@ -1,0 +1,374 @@
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6617: warning: implicit definition of wire 'MGM_CLK0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6619: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6621: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7207: warning: implicit definition of wire 'MGM_CLK0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7209: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7211: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7213: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8426: warning: implicit definition of wire 'MGM_CLK0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8428: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8430: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8432: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8434: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9020: warning: implicit definition of wire 'MGM_CLK0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9022: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9024: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9026: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9387: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9389: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9975: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9977: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9979: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11192: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11194: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11196: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11198: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11784: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11786: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11788: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13625: warning: implicit definition of wire 'MGM_WB_0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14085: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14087: warning: implicit definition of wire 'IQ3'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14551: warning: implicit definition of wire 'MGM_EN0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14553: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14555: warning: implicit definition of wire 'IQ2'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15866: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15868: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16346: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16348: warning: implicit definition of wire 'IQ2'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17237: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17239: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17241: warning: implicit definition of wire 'IQ2'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17719: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17721: warning: implicit definition of wire 'IQ2'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:26784: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:26786: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:29379: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:29405: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:29407: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35483: warning: implicit definition of wire 'MGM_P0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35485: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35511: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35513: warning: implicit definition of wire 'IQ1'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38142: warning: implicit definition of wire 'MGM_C0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38168: warning: implicit definition of wire 'MGM_D0'.
+/home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38170: warning: implicit definition of wire 'IQ1'.
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module asic_top declared here: rtl/asic_top.v:4
+       :   -- module asic_top_gate declared here: reports/entrega/etapa21_combined_gate.nl.v:1
+       :   -- module espino_alu declared here: asic/baseline/espino_alu.v:11
+       :   -- module espino_controller declared here: rtl/espino_core/espino_controller.v:11
+       :   -- module espino_core declared here: rtl/espino_core/espino_core.v:11
+       :   -- module espino_decoder declared here: rtl/espino_core/espino_decoder.v:11
+       :   -- module espino_id_stage declared here: rtl/espino_core/espino_id_stage.v:11
+       :   -- module espino_if_stage declared here: rtl/espino_core/espino_if_stage.v:11
+       :   -- module espino_load_store_unit declared here: rtl/espino_core/espino_load_store_unit.v:11
+       :   -- module espino_regbank32 declared here: rtl/espino_core/espino_register_file.v:11
+       :   -- module espino_register_file declared here: rtl/espino_core/espino_register_file.v:45
+       :   -- module espino_register_file_ff declared here: rtl/espino_core/espino_register_file_ff.v:3
+       :   -- module game_rom declared here: asic/generated/game_rom.v:3
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addf_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addf_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:188
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addf_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:353
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addf_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:517
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addh_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:594
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addh_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:673
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addh_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:752
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__addh_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:830
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:883
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:946
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1009
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1071
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and3_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1106
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and3_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1172
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and3_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1238
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and3_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1303
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and4_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1338
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and4_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1407
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and4_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1476
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__and4_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1544
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__antenna declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1579
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__antenna_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1634
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi211_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2386
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi211_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2481
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi211_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2576
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi211_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2670
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi21_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1666
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi21_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1745
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi21_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1824
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi21_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1902
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi221_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2729
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi221_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2890
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi221_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:3051
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi221_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:3211
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi222_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:3282
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi222_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:3579
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi222_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:3876
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi222_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4172
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi22_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:1957
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi22_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2078
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi22_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2199
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__aoi22_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:2319
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4263
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_12 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4563
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4623
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4323
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_20 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4683
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_3 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4383
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4443
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4503
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__buf_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4742
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4777
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_12 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5092
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5155
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4840
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_3 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4903
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:4966
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5029
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__bufz_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5217
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5260
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_12 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5560
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5620
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5320
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_20 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5680
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_3 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5380
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5440
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5500
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkbuf_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5739
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5774
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_12 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6074
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6134
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5834
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_20 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6194
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_3 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5894
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:5954
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6014
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__clkinv_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6253
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6288
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6396
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6504
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6612
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6653
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:6836
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7019
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7202
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7245
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:7637
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8029
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8421
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8466
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8649
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:8832
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffnsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9015
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9058
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9166
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9274
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9382
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9421
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9604
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9787
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:9970
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:10011
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:10403
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:10795
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffrsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11187
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11230
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11413
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11596
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dffsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11779
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlya_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11820
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlya_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11880
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlya_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11940
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlya_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:11999
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyb_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12034
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyb_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12094
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyb_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12154
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyb_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12213
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyc_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12248
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyc_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12308
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyc_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12368
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyc_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12427
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyd_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12462
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyd_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12522
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyd_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12582
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__dlyd_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12641
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__endcap declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12676
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__endcap_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12730
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12761
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12981
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12816
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_32 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13036
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12871
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_64 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13091
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:12926
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fill_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13145
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fillcap_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13286
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fillcap_32 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13341
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fillcap_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13176
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fillcap_64 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13396
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fillcap_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13231
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__fillcap_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13450
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__filltie declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13481
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__filltie_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13535
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__hold declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13566
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__hold_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13621
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtn_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13657
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtn_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13798
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtn_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:13939
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtn_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14080
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtp_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14123
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtp_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14264
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtp_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14405
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__icgtp_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14546
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14587
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_12 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14887
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14947
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14647
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_20 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15007
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_3 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14707
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14767
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:14827
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__inv_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15066
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15101
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_12 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15416
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_16 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15479
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15164
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_3 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15227
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15290
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_8 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15353
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__invz_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15541
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15588
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15679
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15770
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15861
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:15900
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16047
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16194
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16341
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16380
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16664
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:16948
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latrsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17232
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17273
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17420
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17567
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__latsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17714
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17753
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17842
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:17931
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:18019
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux4_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:18070
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux4_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:18415
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux4_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:18760
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__mux4_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19104
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19163
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19226
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19289
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19351
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand3_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19394
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand3_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19460
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand3_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19526
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand3_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19591
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand4_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19638
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand4_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19707
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand4_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19776
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nand4_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19844
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19895
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:19958
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20021
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20083
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor3_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20126
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor3_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20192
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor3_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20258
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor3_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20323
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor4_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20370
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor4_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20439
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor4_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20508
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__nor4_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20576
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai211_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23065
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai211_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23160
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai211_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23255
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai211_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23349
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai21_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20627
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai21_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20706
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai21_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20785
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai21_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20863
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai221_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23404
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai221_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23565
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai221_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23726
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai221_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23886
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai222_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:23949
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai222_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:24246
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai222_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:24543
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai222_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:24839
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai22_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:20914
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai22_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21035
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai22_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21156
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai22_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21276
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai31_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21335
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai31_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21433
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai31_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21531
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai31_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21628
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai32_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21683
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai32_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:21852
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai32_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:22021
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai32_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:22189
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai33_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:22252
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai33_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:22501
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai33_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:22750
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__oai33_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:22998
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:24910
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:24973
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25036
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25098
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or3_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25133
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or3_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25199
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or3_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25265
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or3_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25330
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or4_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25365
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or4_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25434
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or4_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25503
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__or4_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25571
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25606
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:25989
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:26372
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:26755
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:26818
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:27670
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:28522
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:29374
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:29439
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:31452
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:33465
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35478
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:35545
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:36409
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:37273
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__sdffsnq_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38137
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__tieh declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38202
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__tieh_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38257
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__tiel declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38291
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__tiel_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38346
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38380
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38453
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38526
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38598
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor3_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38649
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor3_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38778
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor3_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:38907
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xnor3_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39035
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor2_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39098
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor2_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39171
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor2_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39244
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor2_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39316
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor3_1 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39367
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor3_2 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39496
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor3_4 declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39625
+       :   -- module gf180mcu_fd_sc_mcu7t5v0__xor3_func declared here: /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v:39753
+       :   -- module pochoco_memory_rom_ram declared here: rtl/pochoco_memory_rom_ram.v:3
+       :   -- module pochoco_memory_unified_ff declared here: rtl/pochoco_memory_unified_ff.v:4
+       :   -- module pochoco_periph declared here: rtl/pochoco_periph.v:11
+       :   -- module pochoco_soc declared here: rtl/pochoco_soc.v:14
+       :   -- module pochoco_spi_slave declared here: rtl/pochoco_spi_slave.v:13

@@ -1,0 +1,29 @@
+Etapa 6 - errores originales de infraestructura al intentar grt80
+Fecha local de la sesion: 2026-10-23
+
+Corrida: asic/runs/etapa6_rom_ram_grt80
+Etapa alcanzada: 41-openroad-repairdesignpostgrt
+Salida terminal exacta:
+time="2026-10-23T13:31:13-03:00" level=error msg="error waiting for container: unexpected EOF"
+make: *** [Makefile:92: etapa6-grt80] Error 125
+
+Reintento solicitado con tag: etapa6_rom_ram_grt80_retry
+El contenedor no llego a iniciar; salida terminal exacta:
+request returned 500 Internal Server Error for API route and version http://%2Fvar%2Frun%2Fdocker.sock/v1.55/info, check if the server supports the requested API version
+Traceback (most recent call last):
+  File "/tmp/pochoco3/.venv-librelane-stage3/lib/python3.12/site-packages/librelane/__main__.py", line 340, in cli_in_container
+    run_in_container(
+  File "/tmp/pochoco3/.venv-librelane-stage3/lib/python3.12/site-packages/librelane/container.py", line 184, in run_in_container
+    osinfo = OSInfo.get()
+             ^^^^^^^^^^^^
+  File "/tmp/pochoco3/.venv-librelane-stage3/lib/python3.12/site-packages/librelane/env_info.py", line 278, in get
+    osinfo.container_info = ContainerInfo.get()
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/pochoco3/.venv-librelane-stage3/lib/python3.12/site-packages/librelane/env_info.py", line 115, in get
+    for option in security_options:
+TypeError: 'NoneType' object is not iterable
+[16:00:11] ERROR    'NoneType' object is not iterable
+
+Diagnostico posterior: WSL2 seguia en estado Running, pero `docker info`
+no devolvia informacion del servidor dentro del timeout. No se reinicio Docker
+Desktop ni WSL para evitar interrumpir contenedores o sesiones ajenas.

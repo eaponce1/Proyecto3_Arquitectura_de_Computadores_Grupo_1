@@ -1,0 +1,5 @@
+Command attempted:
+sudo apt-get update && sudo apt-get install -y verilator
+
+The command reached sudo authentication and was cancelled without entering a
+password. No package was installed and no existing toolchain was modified.

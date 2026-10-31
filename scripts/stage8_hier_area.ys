@@ -1,0 +1,29 @@
+# Diagnostic synthesis for section 3.3. It deliberately preserves hierarchy.
+# Expected mounts: project at /work, enabled gf180mcuD PDK at /pdk.
+
+read_liberty -lib /pdk/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib
+read_verilog -defer \
+  /work/rtl/asic_top.v \
+  /work/rtl/pochoco_soc.v \
+  /work/rtl/pochoco_periph.v \
+  /work/rtl/pochoco_spi_slave.v \
+  /work/rtl/pochoco_memory_rom_ram.v \
+  /work/rtl/pochoco_memory_unified_ff.v \
+  /work/asic/generated/game_rom.v \
+  /work/asic/baseline/espino_alu.v \
+  /work/rtl/espino_core/espino_controller.v \
+  /work/rtl/espino_core/espino_core.v \
+  /work/rtl/espino_core/espino_decoder.v \
+  /work/rtl/espino_core/espino_id_stage.v \
+  /work/rtl/espino_core/espino_if_stage.v \
+  /work/rtl/espino_core/espino_load_store_unit.v \
+  /work/rtl/espino_core/espino_register_file_ff.v
+
+chparam -set MemoryArchitecture 1 asic_top
+hierarchy -check -top asic_top
+synth -top asic_top -noabc
+dfflibmap -liberty /pdk/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib
+abc -liberty /pdk/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib
+clean
+write_json /work/reports/stage8/hier_mapped.json
+tee -o /work/reports/stage8/hier_stat.json stat -top asic_top -liberty /pdk/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib -json

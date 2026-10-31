@@ -1,0 +1,3 @@
+VCD info: dumpfile reports/stage21/stage21_external.vcd opened for output.
+PASS|stage21_external_smoke|cycles=208|button_cycles=8|mismatches=0
+tests/stage21/stage21_external_tb.v:94: $finish called at 2075000 (1ps)

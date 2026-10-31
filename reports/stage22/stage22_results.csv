@@ -1,0 +1,7 @@
+scenario,mode,cycles,elapsed_seconds,mismatches,status
+benchmark_idle,rtl,100008,5.32,0,PASS
+benchmark_idle,gate,1008,4.30,0,PASS
+benchmark_idle,paired,1008,4.42,0,PASS
+round_correct,paired,,,,NOT_EXECUTED_GATE_RUNTIME
+wrong_button,paired,,,,NOT_EXECUTED_GATE_RUNTIME
+ten_rounds,paired,,,,NOT_EXECUTED_GATE_RUNTIME

@@ -1,0 +1,14 @@
+{
+  "meta":{"version":2,"flow":"Classic","substituting_steps":{"+OpenROAD.DetailedRouting":"Odb.InsertECOBuffers","+Odb.InsertECOBuffers":"OpenROAD.DetailedRouting"}},
+  "DESIGN_NAME":"asic_top","PDK":"gf180mcuD","STD_CELL_LIBRARY":"gf180mcu_fd_sc_mcu7t5v0",
+  "CLOCK_PORT":"clk_i","CLOCK_PERIOD":100,"FP_CORE_UTIL":40,"SYNTH_PARAMETERS":["MemoryArchitecture=1"],
+  "EXTRA_EXCLUDED_CELLS":["gf180mcu_fd_sc_mcu7t5v0__dly*"],"RSZ_CORNERS":["max_ss_125C_4v50"],
+  "VERILOG_FILES":["dir::../rtl/asic_top.v","dir::../rtl/pochoco_soc.v","dir::../rtl/pochoco_periph.v","dir::../rtl/pochoco_spi_slave.v","dir::../rtl/pochoco_memory_rom_ram.v","dir::../rtl/pochoco_memory_unified_ff.v","dir::generated/game_rom.v","dir::baseline/espino_alu.v","dir::../rtl/espino_core/espino_controller.v","dir::../rtl/espino_core/espino_core.v","dir::../rtl/espino_core/espino_decoder.v","dir::../rtl/espino_core/espino_id_stage.v","dir::../rtl/espino_core/espino_if_stage.v","dir::../rtl/espino_core/espino_load_store_unit.v","dir::../rtl/espino_core/espino_register_file_ff.v"],
+  "INSERT_ECO_BUFFERS":[
+    {"target":"fanout1342/Z","buffer":"gf180mcu_fd_sc_mcu7t5v0__buf_2"},
+    {"target":"_6274_/ZN","buffer":"gf180mcu_fd_sc_mcu7t5v0__buf_2"},
+    {"target":"_5852_/ZN","buffer":"gf180mcu_fd_sc_mcu7t5v0__buf_2"},
+    {"target":"_4353_/ZN","buffer":"gf180mcu_fd_sc_mcu7t5v0__buf_2"},
+    {"target":"_4867_/ZN","buffer":"gf180mcu_fd_sc_mcu7t5v0__buf_2"}
+  ]
+}

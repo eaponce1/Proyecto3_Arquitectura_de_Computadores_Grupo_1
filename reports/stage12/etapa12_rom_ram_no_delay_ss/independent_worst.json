@@ -1,0 +1,252 @@
+{
+  "tag": "etapa12_rom_ram_no_delay_ss",
+  "corners": [
+    {
+      "corner": "max_ff_n40C_5v50",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_max_ff_n40C_5v50.rpt",
+      "setup_ws_ns": 75.651016,
+      "hold_ws_ns": 0.055865,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 2.6,
+        "value": 2.119967,
+        "slack": 0.480033,
+        "status": "(MET)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.334622,
+        "slack": -0.134622,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "max_ss_125C_4v50",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_max_ss_125C_4v50.rpt",
+      "setup_ws_ns": 53.646851,
+      "hold_ws_ns": 0.726384,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 3.0,
+        "value": 5.405243,
+        "slack": -2.405243,
+        "status": "(VIOLATED)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.336702,
+        "slack": -0.136702,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "max_tt_025C_5v00",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_max_tt_025C_5v00.rpt",
+      "setup_ws_ns": 73.361519,
+      "hold_ws_ns": 0.256437,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 3.0,
+        "value": 3.187369,
+        "slack": -0.187369,
+        "status": "(VIOLATED)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.334542,
+        "slack": -0.134542,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "min_ff_n40C_5v50",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_min_ff_n40C_5v50.rpt",
+      "setup_ws_ns": 75.813911,
+      "hold_ws_ns": 0.054793,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 2.6,
+        "value": 1.732041,
+        "slack": 0.867959,
+        "status": "(MET)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.306549,
+        "slack": -0.106549,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "min_ss_125C_4v50",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_min_ss_125C_4v50.rpt",
+      "setup_ws_ns": 57.212395,
+      "hold_ws_ns": 0.724056,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 3.0,
+        "value": 4.423287,
+        "slack": -1.423287,
+        "status": "(VIOLATED)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.308629,
+        "slack": -0.108629,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "min_tt_025C_5v00",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_min_tt_025C_5v00.rpt",
+      "setup_ws_ns": 73.603317,
+      "hold_ws_ns": 0.254901,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 3.0,
+        "value": 2.606293,
+        "slack": 0.393706,
+        "status": "(MET)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.306469,
+        "slack": -0.106469,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "nom_ff_n40C_5v50",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_nom_ff_n40C_5v50.rpt",
+      "setup_ws_ns": 75.739624,
+      "hold_ws_ns": 0.05528,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 2.6,
+        "value": 1.907021,
+        "slack": 0.692979,
+        "status": "(MET)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.318986,
+        "slack": -0.118986,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "nom_ss_125C_4v50",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_nom_ss_125C_4v50.rpt",
+      "setup_ws_ns": 55.589676,
+      "hold_ws_ns": 0.72512,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 3.0,
+        "value": 4.86608,
+        "slack": -1.86608,
+        "status": "(VIOLATED)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.321066,
+        "slack": -0.121066,
+        "status": "(VIOLATED)"
+      }
+    },
+    {
+      "corner": "nom_tt_025C_5v00",
+      "report": "reports/stage12/etapa12_rom_ram_no_delay_ss/worst_nom_tt_025C_5v00.rpt",
+      "setup_ws_ns": 73.493164,
+      "hold_ws_ns": 0.255601,
+      "slew": {
+        "pin": "_5285_/A1",
+        "limit": 3.0,
+        "value": 2.869701,
+        "slack": 0.130298,
+        "status": "(MET)"
+      },
+      "fanout": {
+        "pin": "clkbuf_leaf_36_clk_i/Z",
+        "limit": 10.0,
+        "value": 19.0,
+        "slack": -9.0,
+        "status": "(VIOLATED)"
+      },
+      "capacitance": {
+        "pin": "clkbuf_0_clk_i/Z",
+        "limit": 0.2,
+        "value": 0.318906,
+        "slack": -0.118906,
+        "status": "(VIOLATED)"
+      }
+    }
+  ],
+  "independent_slack_comparison_tolerance_ns": 0.001,
+  "worst_slew_ns": 5.405243,
+  "worst_capacitance_pf": 0.336702,
+  "worst_fanout": 19.0
+}

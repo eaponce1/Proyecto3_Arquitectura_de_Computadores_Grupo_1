@@ -1,0 +1,36 @@
+% Fragmento para incluir desde el informe principal con \input{docs/proyecto3_citas_oficiales}.
+% Para BibTeX clasico, agregar al final del informe:
+% \bibliographystyle{IEEEtran}
+% \bibliography{docs/proyecto3_referencias_oficiales}
+%
+% Con biblatex, usar en el preambulo:
+% \addbibresource{docs/proyecto3_referencias_oficiales.bib}
+% y \printbibliography en lugar de los dos comandos anteriores.
+
+\subsection{Flujo RTL a GDSII con LibreLane}
+La implementacion ASIC se ejecuto con LibreLane 3.0.16 en Docker/WSL. LibreLane
+acepta configuraciones JSON validadas y organiza un flujo reproducible de
+implementacion digital desde RTL hasta las vistas fisicas. La configuracion
+reglamentaria usa \texttt{DESIGN\_NAME=asic\_top}, \texttt{CLOCK\_PORT=clk\_i},
+\texttt{CLOCK\_PERIOD=100 ns} y \texttt{FP\_CORE\_UTIL=40}.
+La documentacion oficial se usa para describir el flujo y sus parametros;
+las metricas de este proyecto provienen exclusivamente de sus logs y reportes
+originales~\cite{librelane_docs}.
+
+\subsection{Tecnologia GF180MCU y biblioteca estandar}
+El flujo utiliza la variante instalada \texttt{gf180mcuD}, correspondiente a
+la familia de tecnologia GF180MCU, con la revision de \texttt{open\_pdks}
+\texttt{8afc8346a57fe1ab7934ba5a6056ea8b43078e71}. La biblioteca seleccionada
+es \texttt{gf180mcu\_fd\_sc\_mcu7t5v0}, una biblioteca estandar de siete
+tracks documentada por el PDK. Esta referencia respalda la procedencia de las
+vistas tecnologicas y de celdas, no reemplaza la revision exacta registrada en
+las corridas~\cite{gf180mcu_pdk_docs}.
+
+\subsection{Implementacion fisica y analisis de timing con OpenROAD}
+LibreLane invoca OpenROAD para inicializacion del floorplan, placement, CTS,
+routing, extraccion RC y STA post-route. El uso de utilizacion para dimensionar
+el core, la inspeccion de congestion y el analisis despues de extraccion son
+coherentes con las capacidades documentadas de OpenROAD~\cite{openroad_docs}.
+Los valores de WNS, TNS, DRC, LVS, antena y violaciones electricas presentados
+en este informe se toman de los reportes originales de LibreLane/OpenROAD; no
+se deducen de esta documentacion.

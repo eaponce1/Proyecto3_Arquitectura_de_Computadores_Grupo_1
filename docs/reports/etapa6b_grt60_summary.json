@@ -1,0 +1,311 @@
+{
+  "run": "C:\\Users\\Edu Ponce\\Downloads\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly\\Proyecto-2_Juego-en-Assembly\\pochoco_soc-main\\asic\\runs\\etapa6_rom_ram_grt60",
+  "corner": "max_ss_125C_4v50",
+  "report": "C:\\Users\\Edu Ponce\\Downloads\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly\\Proyecto-2_Juego-en-Assembly\\pochoco_soc-main\\asic\\runs\\etapa6_rom_ram_grt60\\56-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+  "totals": {
+    "slew": 542,
+    "fanout": 55,
+    "capacitance": 3
+  },
+  "classification_counts": {
+    "slew": {
+      "instruction/ROM/fetch": 362,
+      "instruction/ROM/fetch+data-memory+register-file+peripheral": 99,
+      "data-memory": 42,
+      "other-combinational": 14,
+      "instruction/ROM/fetch+data-memory+register-file": 9,
+      "register-file": 8,
+      "reset": 6,
+      "instruction/ROM/fetch+register-file": 2
+    },
+    "fanout": {
+      "clock/CTS": 55
+    },
+    "capacitance": {
+      "clock/CTS": 2,
+      "instruction/ROM/fetch": 1
+    }
+  },
+  "top10_slew_nets": [
+    {
+      "type": "slew",
+      "net": "net477",
+      "count": 9,
+      "worst_slack": -0.229937,
+      "worst_value": 3.229937,
+      "limit": 3.0,
+      "drivers": "fanout477/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_7002_/A2",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6]"
+    },
+    {
+      "type": "slew",
+      "net": "net270",
+      "count": 9,
+      "worst_slack": -0.135664,
+      "worst_value": 3.135664,
+      "limit": 3.0,
+      "drivers": "fanout270/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "other-combinational",
+      "sample_pin": "_6010_/A2",
+      "roots": "\\u_pochoco_soc.u_core.stall"
+    },
+    {
+      "type": "slew",
+      "net": "\\u_pochoco_soc.data_wdata[5]",
+      "count": 8,
+      "worst_slack": -1.757535,
+      "worst_value": 4.757535,
+      "limit": 3.0,
+      "drivers": "_9302_/Q:gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+      "classification": "data-memory",
+      "sample_pin": "_8440_/I1",
+      "roots": "\\u_pochoco_soc.data_wdata[5]"
+    },
+    {
+      "type": "slew",
+      "net": "net369",
+      "count": 8,
+      "worst_slack": -1.228909,
+      "worst_value": 4.228909,
+      "limit": 3.0,
+      "drivers": "fanout369/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5769_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "net170",
+      "count": 8,
+      "worst_slack": -1.163242,
+      "worst_value": 4.163241,
+      "limit": 3.0,
+      "drivers": "_7899_/S:gf180mcu_fd_sc_mcu7t5v0__mux2_2;_7914_/S:gf180mcu_fd_sc_mcu7t5v0__mux2_2;fanout170/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch+data-memory+register-file+peripheral",
+      "sample_pin": "_7914_/S",
+      "roots": "\\u_pochoco_soc.data_wdata[0];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_addr_i[10];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_addr_i[11];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[0];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[10];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[11];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[12];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[13];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[14];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[19];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[24];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[25];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[26];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[27];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[28];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[29];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[2];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[30];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[3];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[4];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[5];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[6];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[7];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[8];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[9];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[11];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[12];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[13];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[14];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[23];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[24];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[27];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[28];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[30];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[31];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[4];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[5];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[7];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.b_rdata_o[8];\\u_pochoco_soc.per_rdata[11];\\u_pochoco_soc.per_rdata[12];\\u_pochoco_soc.per_rdata[13];\\u_pochoco_soc.per_rdata[14];\\u_pochoco_soc.per_rdata[15];\\u_pochoco_soc.per_rdata[22];\\u_pochoco_soc.per_rdata[23];\\u_pochoco_soc.per_rdata[24];\\u_pochoco_soc.per_rdata[27];\\u_pochoco_soc.per_rdata[28];\\u_pochoco_soc.per_rdata[30];\\u_pochoco_soc.per_rdata[31];\\u_pochoco_soc.per_rdata[4];\\u_pochoco_soc.per_rdata[5];\\u_pochoco_soc.per_rdata[7];\\u_pochoco_soc.per_rdata[8];\\u_pochoco_soc.rd_is_per;\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.bank_a[8][22];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.bank_a[8][30];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[0];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[18];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[19];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[20];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[21];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[22];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[26];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[27];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[28];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[29];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[30];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_a_o[31];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[18];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[19];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[20];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[21];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[22];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[26];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[27];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[28];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[29];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[30];\\u_pochoco_soc.u_core.g_asic_regfile.u_rf.rdata_b_o[31];\\u_pochoco_soc.u_core.instr_valid_id;\\u_pochoco_soc.u_core.lsu_busy;\\u_pochoco_soc.u_core.pc_id[0];\\u_pochoco_soc.u_core.pc_id[10];\\u_pochoco_soc.u_core.pc_id[11];\\u_pochoco_soc.u_core.pc_id[12];\\u_pochoco_soc.u_core.pc_id[13];\\u_pochoco_soc.u_core.pc_id[14];\\u_pochoco_soc.u_core.pc_id[15];\\u_pochoco_soc.u_core.pc_id[16];\\u_pochoco_soc.u_core.pc_id[17];\\u_pochoco_soc.u_core.pc_id[18];\\u_pochoco_soc.u_core.pc_id[19];\\u_pochoco_soc.u_core.pc_id[20];\\u_pochoco_soc.u_core.pc_id[21];\\u_pochoco_soc.u_core.pc_id[22];\\u_pochoco_soc.u_core.pc_id[23];\\u_pochoco_soc.u_core.pc_id[24];\\u_pochoco_soc.u_core.pc_id[25];\\u_pochoco_soc.u_core.pc_id[26];\\u_pochoco_soc.u_core.pc_id[27];\\u_pochoco_soc.u_core.pc_id[28];\\u_pochoco_soc.u_core.pc_id[29];\\u_pochoco_soc.u_core.pc_id[30];\\u_pochoco_soc.u_core.pc_id[31];\\u_pochoco_soc.u_core.rf_ready"
+    },
+    {
+      "type": "slew",
+      "net": "net427",
+      "count": 8,
+      "worst_slack": -1.157963,
+      "worst_value": 4.157962,
+      "limit": 3.0,
+      "drivers": "fanout427/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5257_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "slew",
+      "net": "net572",
+      "count": 8,
+      "worst_slack": -1.115482,
+      "worst_value": 4.115482,
+      "limit": 3.0,
+      "drivers": "fanout572/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout570/I",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[31]"
+    },
+    {
+      "type": "slew",
+      "net": "net391",
+      "count": 8,
+      "worst_slack": -1.025705,
+      "worst_value": 4.025705,
+      "limit": 3.0,
+      "drivers": "fanout391/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5674_/C1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "net543",
+      "count": 8,
+      "worst_slack": -0.97536,
+      "worst_value": 3.97536,
+      "limit": 3.0,
+      "drivers": "fanout543/Z:gf180mcu_fd_sc_mcu7t5v0__buf_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout536/I",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "\\u_pochoco_soc.data_wdata[0]",
+      "count": 8,
+      "worst_slack": -0.932754,
+      "worst_value": 3.932754,
+      "limit": 3.0,
+      "drivers": "_9297_/Q:gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",
+      "classification": "data-memory",
+      "sample_pin": "_8319_/I1",
+      "roots": "\\u_pochoco_soc.data_wdata[0]"
+    }
+  ],
+  "capacitance_nets": [
+    {
+      "type": "capacitance",
+      "net": "clknet_0_clk_i",
+      "count": 1,
+      "worst_slack": -0.153182,
+      "worst_value": 0.353182,
+      "limit": 0.2,
+      "drivers": "clkbuf_0_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_0_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "capacitance",
+      "net": "clknet_3_4__leaf_clk_i",
+      "count": 1,
+      "worst_slack": -0.010272,
+      "worst_value": 0.210272,
+      "limit": 0.2,
+      "drivers": "clkbuf_3_4__f_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_3_4__f_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "capacitance",
+      "net": "net374",
+      "count": 1,
+      "worst_slack": -0.008488,
+      "worst_value": 0.208488,
+      "limit": 0.2,
+      "drivers": "fanout374/Z:gf180mcu_fd_sc_mcu7t5v0__buf_2",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout374/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    }
+  ],
+  "top10_fanout_nets": [
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_16_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_16_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_16_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_20_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_20_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_20_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_29_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_29_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_29_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_33_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_33_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_33_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_38_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_38_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_38_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_39_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_39_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_39_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_42_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_42_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_42_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_45_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_45_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_45_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_47_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_47_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_47_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_49_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_49_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_49_clk_i/Z",
+      "roots": "clk_i"
+    }
+  ]
+}

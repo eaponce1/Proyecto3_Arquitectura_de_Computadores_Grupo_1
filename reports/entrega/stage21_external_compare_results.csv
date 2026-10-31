@@ -1,0 +1,5 @@
+case,status,cycles_checked,rtl_result,gate_result,mismatches,notes
+reset_idle_button_smoke,PASS,208,observable outputs matched,observable outputs matched,0,8-cycle external button pulse; same reset and SPI inputs
+round_correct,NOT_COVERED,,,,,Requires 30000000-cycle ASIC warm-up and external debounce
+wrong_button,NOT_COVERED,,,,,Requires 30000000-cycle ASIC warm-up and external debounce
+ten_rounds,NOT_COVERED,,,,,Requires full real-time game execution

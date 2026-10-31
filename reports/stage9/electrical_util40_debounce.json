@@ -1,0 +1,395 @@
+{
+  "run": "C:\\Users\\Edu Ponce\\Downloads\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly\\Proyecto-2_Juego-en-Assembly\\pochoco_soc-main\\asic\\runs\\etapa9_rom_ram_util40_debounce",
+  "corner": "max_ss_125C_4v50",
+  "report": "C:\\Users\\Edu Ponce\\Downloads\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly-main\\Proyecto-2_Juego-en-Assembly\\Proyecto-2_Juego-en-Assembly\\pochoco_soc-main\\asic\\runs\\etapa9_rom_ram_util40_debounce\\55-openroad-stapostpnr\\max_ss_125C_4v50\\checks.rpt",
+  "totals": {
+    "slew": 2695,
+    "fanout": 58,
+    "capacitance": 10
+  },
+  "classification_counts": {
+    "slew": {
+      "instruction/ROM/fetch": 1980,
+      "reset": 222,
+      "other-combinational": 196,
+      "instruction/ROM/fetch+register-file": 103,
+      "instruction/ROM/fetch+data-memory+register-file": 73,
+      "instruction/ROM/fetch+data-memory+register-file+peripheral": 72,
+      "data-memory": 38,
+      "data-memory+peripheral": 11
+    },
+    "fanout": {
+      "clock/CTS": 58
+    },
+    "capacitance": {
+      "instruction/ROM/fetch": 8,
+      "clock/CTS": 2
+    }
+  },
+  "top10_slew_nets": [
+    {
+      "type": "slew",
+      "net": "net385",
+      "count": 11,
+      "worst_slack": -3.292998,
+      "worst_value": 6.292998,
+      "limit": 3.0,
+      "drivers": "fanout385/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5591_/A2",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "net494",
+      "count": 11,
+      "worst_slack": -2.939054,
+      "worst_value": 5.939054,
+      "limit": 3.0,
+      "drivers": "fanout494/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5502_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "net453",
+      "count": 11,
+      "worst_slack": -2.908013,
+      "worst_value": 5.908012,
+      "limit": 3.0,
+      "drivers": "fanout453/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5147_/A2",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "slew",
+      "net": "net406",
+      "count": 11,
+      "worst_slack": -2.825825,
+      "worst_value": 5.825825,
+      "limit": 3.0,
+      "drivers": "fanout406/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5593_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "net389",
+      "count": 11,
+      "worst_slack": -2.555351,
+      "worst_value": 5.555351,
+      "limit": 3.0,
+      "drivers": "fanout389/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5504_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "slew",
+      "net": "net441",
+      "count": 11,
+      "worst_slack": -2.534668,
+      "worst_value": 5.534668,
+      "limit": 3.0,
+      "drivers": "fanout441/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5216_/A2",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "slew",
+      "net": "net445",
+      "count": 11,
+      "worst_slack": -2.481779,
+      "worst_value": 5.481779,
+      "limit": 3.0,
+      "drivers": "fanout445/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5310_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "slew",
+      "net": "net461",
+      "count": 11,
+      "worst_slack": -2.472543,
+      "worst_value": 5.472543,
+      "limit": 3.0,
+      "drivers": "fanout461/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5041_/A2",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "slew",
+      "net": "net515",
+      "count": 11,
+      "worst_slack": -2.436253,
+      "worst_value": 5.436253,
+      "limit": 3.0,
+      "drivers": "fanout515/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5211_/A2",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "slew",
+      "net": "net525",
+      "count": 11,
+      "worst_slack": -2.423307,
+      "worst_value": 5.423307,
+      "limit": 3.0,
+      "drivers": "fanout525/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_5218_/B1",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    }
+  ],
+  "capacitance_nets": [
+    {
+      "type": "capacitance",
+      "net": "clknet_0_clk_i",
+      "count": 1,
+      "worst_slack": -0.137637,
+      "worst_value": 0.337637,
+      "limit": 0.2,
+      "drivers": "clkbuf_0_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_0_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "capacitance",
+      "net": "clknet_3_6__leaf_clk_i",
+      "count": 1,
+      "worst_slack": -0.061793,
+      "worst_value": 0.261793,
+      "limit": 0.2,
+      "drivers": "clkbuf_3_6__f_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_16",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_3_6__f_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "capacitance",
+      "net": "net385",
+      "count": 1,
+      "worst_slack": -0.028624,
+      "worst_value": 0.228624,
+      "limit": 0.2,
+      "drivers": "fanout385/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout385/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "capacitance",
+      "net": "net494",
+      "count": 1,
+      "worst_slack": -0.01559,
+      "worst_value": 0.21559,
+      "limit": 0.2,
+      "drivers": "fanout494/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout494/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "capacitance",
+      "net": "net453",
+      "count": 1,
+      "worst_slack": -0.014345,
+      "worst_value": 0.214345,
+      "limit": 0.2,
+      "drivers": "fanout453/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout453/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "capacitance",
+      "net": "net406",
+      "count": 1,
+      "worst_slack": -0.011398,
+      "worst_value": 0.211398,
+      "limit": 0.2,
+      "drivers": "fanout406/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout406/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "capacitance",
+      "net": "net381",
+      "count": 1,
+      "worst_slack": -0.009264,
+      "worst_value": 0.209264,
+      "limit": 0.2,
+      "drivers": "wire381/Z:gf180mcu_fd_sc_mcu7t5v0__buf_4",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "wire381/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "capacitance",
+      "net": "_1548_",
+      "count": 1,
+      "worst_slack": -0.003911,
+      "worst_value": 0.203911,
+      "limit": 0.2,
+      "drivers": "_4966_/Z:gf180mcu_fd_sc_mcu7t5v0__or2_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "_4966_/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    },
+    {
+      "type": "capacitance",
+      "net": "net389",
+      "count": 1,
+      "worst_slack": -0.001582,
+      "worst_value": 0.201582,
+      "limit": 0.2,
+      "drivers": "fanout389/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout389/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[15];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[16];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[17];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[18]"
+    },
+    {
+      "type": "capacitance",
+      "net": "net441",
+      "count": 1,
+      "worst_slack": -0.000707,
+      "worst_value": 0.200707,
+      "limit": 0.2,
+      "drivers": "fanout441/Z:gf180mcu_fd_sc_mcu7t5v0__dlyb_1",
+      "classification": "instruction/ROM/fetch",
+      "sample_pin": "fanout441/Z",
+      "roots": "\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[21];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[22];\\u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[23]"
+    }
+  ],
+  "top10_fanout_nets": [
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_36_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_36_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_36_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_3_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_3_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_3_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_40_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_40_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_40_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_42_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_42_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_42_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_5_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_5_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_5_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_6_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_6_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_6_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_9_clk_i",
+      "count": 1,
+      "worst_slack": -8.0,
+      "worst_value": 18.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_9_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_9_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_11_clk_i",
+      "count": 1,
+      "worst_slack": -7.0,
+      "worst_value": 17.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_11_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_11_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_12_clk_i",
+      "count": 1,
+      "worst_slack": -7.0,
+      "worst_value": 17.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_12_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_12_clk_i/Z",
+      "roots": "clk_i"
+    },
+    {
+      "type": "fanout",
+      "net": "clknet_leaf_13_clk_i",
+      "count": 1,
+      "worst_slack": -7.0,
+      "worst_value": 17.0,
+      "limit": 10.0,
+      "drivers": "clkbuf_leaf_13_clk_i/Z:gf180mcu_fd_sc_mcu7t5v0__clkbuf_8",
+      "classification": "clock/CTS",
+      "sample_pin": "clkbuf_leaf_13_clk_i/Z",
+      "roots": "clk_i"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+which:
+/mnt/c/Tools/oss-cad-suite/bin/verilator
+type:
+-a: not found
+verilator is /mnt/c/Tools/oss-cad-suite/bin/verilator
+verilator -V:
+Can't exec "/mnt/c/Tools/oss-cad-suite/bin/verilator_bin": No such file or directory at /mnt/c/Tools/oss-cad-suite/bin/verilator line 272.
+Use of uninitialized value in string eq at /mnt/c/Tools/oss-cad-suite/bin/verilator line 272.
+sh: 1: exec: /mnt/c/Tools/oss-cad-suite/bin/verilator_bin: not found
+%Error: Command Failed ulimit -s unlimited 2>/dev/null; exec /mnt/c/Tools/oss-cad-suite/bin/verilator_bin -V
+package:
+verilator:
+  Installed: (none)
+  Candidate: 5.020-1
+  Version table:
+     5.020-1 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+models:
+-rw-r--r-- 1 edu_ponce edu_ponce 953K Oct 22 21:03 /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v
+-rw-r--r-- 1 edu_ponce edu_ponce 5.5K Oct 22 21:03 /home/edu_ponce/.ciel/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/primitives.v

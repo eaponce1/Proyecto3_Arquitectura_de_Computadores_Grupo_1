@@ -1,0 +1,8 @@
+Command:
+wsl.exe --cd "/mnt/c/Users/Edu Ponce/Downloads/Proyecto-2_Juego-en-Assembly-main/Proyecto-2_Juego-en-Assembly-main/Proyecto-2_Juego-en-Assembly/Proyecto-2_Juego-en-Assembly/pochoco_soc-main" sh -lc "tests/stage21/run_external_compare.sh"
+
+Output:
+Wrote reports/stage21/stage21_external_compare.log
+
+Result:
+PASS|stage21_external_smoke|cycles=208|button_cycles=8|mismatches=0

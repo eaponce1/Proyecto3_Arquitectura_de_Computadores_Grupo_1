@@ -1,0 +1,5 @@
+corner,line,pin,limit_ns,slew_ns,slack_ns,net,instance,cell,classification
+max_ss_125C_4v50,294,_7165_/ZN,3.0,3.435396,-0.435396,eco_buffer_48_net,_7165_,gf180mcu_fd_sc_mcu7t5v0__aoi221_1,instruction/ROM
+max_ss_125C_4v50,295,eco_buffer_48/I,3.0,3.435396,-0.435396,eco_buffer_48_net,eco_buffer_48,gf180mcu_fd_sc_mcu7t5v0__buf_4,instruction/ROM
+nom_ss_125C_4v50,294,_7165_/ZN,3.0,3.195159,-0.195159,eco_buffer_48_net,_7165_,gf180mcu_fd_sc_mcu7t5v0__aoi221_1,instruction/ROM
+nom_ss_125C_4v50,295,eco_buffer_48/I,3.0,3.195159,-0.195159,eco_buffer_48_net,eco_buffer_48,gf180mcu_fd_sc_mcu7t5v0__buf_4,instruction/ROM

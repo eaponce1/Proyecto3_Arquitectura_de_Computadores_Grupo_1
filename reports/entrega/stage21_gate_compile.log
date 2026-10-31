@@ -1,0 +1,7 @@
+Command: iverilog -g2012 -Wall -DFUNCTIONAL -s stage7_tb ... tests/stage7/generated/asic_top_gate.nl.v tests/stage7/stage7_tb.v
+Result: failed during elaboration.
+Error: Unable to bind wire/reg/memory `gate.u_pochoco_soc.u_core.g_asic_regfile.u_rf.bank_a[8][3]' in `stage7_tb`.
+Error: Unable to bind wire/reg/memory `gate.u_pochoco_soc.u_core.g_asic_regfile.u_rf.bank_a[8][2]' in `stage7_tb`.
+Error: Unable to bind wire/reg/memory `gate.u_pochoco_soc.u_core.g_asic_regfile.u_rf.bank_a[8][1]' in `stage7_tb`.
+Error: Unable to bind wire/reg/memory `gate.u_pochoco_soc.u_core.g_asic_regfile.u_rf.bank_a[8][0]' in `stage7_tb`.
+Cause: the final post-route netlist is flattened and does not preserve the internal register-file hierarchy required by the historical testbench.

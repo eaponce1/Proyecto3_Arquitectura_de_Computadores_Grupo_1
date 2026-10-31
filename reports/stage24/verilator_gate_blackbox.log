@@ -1,0 +1,4 @@
+%Error: reports/entrega/etapa21_combined_gate.nl.v:6866:35: Can't resolve module reference: 'gf180mcu_fd_sc_mcu7t5v0__antenna'
+ 6866 |  gf180mcu_fd_sc_mcu7t5v0__antenna ANTENNA_1 (.I(net286));
+      |                                   ^~~~~~~~~
+%Error: Exiting due to 1 error(s)

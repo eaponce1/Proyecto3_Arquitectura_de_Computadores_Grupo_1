@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/tmp/pochoco3/.venv-librelane-stage3/bin/python",
+    "-m",
+    "librelane",
+    "--docker-no-tty",
+    "--dockerized",
+    "--manual-pdk",
+    "--condensed",
+    "--hide-progress-bar",
+    "-j",
+    "4",
+    "--run-tag",
+    "etapa12_rom_ram_no_dlyb",
+    "asic/rom_ram_stage12_no_dlyb.json"
+  ],
+  "inputs_sha256": {
+    "sw/game.s": "f80a526f10252884f20d90bf5b411668edee74f52d71524321822320909cc6c3",
+    "asic/generated/game_rom.v": "058209c20fa46c5ebd5639a41180946635320fc47b030d8f78082d651bd5587a",
+    "asic/rom_ram_util40.json": "ee0c871084158f2452ba20bc8544a255e7ca59d295fbeca77d27fc3ddf311a61",
+    "asic/rom_ram_stage12_no_dlyb.json": "1922cbe81b95a707041833ce77499b5675f5930abf2e2687f56deda7017fdd92"
+  }
+}

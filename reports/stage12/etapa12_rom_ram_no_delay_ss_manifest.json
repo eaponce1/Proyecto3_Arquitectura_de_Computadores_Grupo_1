@@ -1,0 +1,38 @@
+{
+  "command": [
+    "/tmp/pochoco3/.venv-librelane-stage3/bin/python",
+    "-m",
+    "librelane",
+    "--docker-no-tty",
+    "--dockerized",
+    "--manual-pdk",
+    "--condensed",
+    "--hide-progress-bar",
+    "-j",
+    "4",
+    "--run-tag",
+    "etapa12_rom_ram_no_delay_ss",
+    "asic/rom_ram_stage12_no_delay_ss.json"
+  ],
+  "inputs_sha256": {
+    "sw/game.s": "f80a526f10252884f20d90bf5b411668edee74f52d71524321822320909cc6c3",
+    "asic/generated/game_rom.v": "058209c20fa46c5ebd5639a41180946635320fc47b030d8f78082d651bd5587a",
+    "asic/rom_ram_util40.json": "ee0c871084158f2452ba20bc8544a255e7ca59d295fbeca77d27fc3ddf311a61",
+    "asic/rom_ram_stage12_no_delay_ss.json": "e5b7507064d24811aa36e1d4df7d308b8a6906a56d6b72a583cb889127f6eb32",
+    "rtl/asic_top.v": "9b34adb638aeb033c38ed294b8db8590f9603738bf4b3b2a1eb633b1f5718e19",
+    "rtl/pochoco_soc.v": "048419e15b2a373e321df756d071ed7bd04e9389753fa42ef8f53d311c013ef3",
+    "rtl/pochoco_periph.v": "2a80a7c0ff9bdd8e81d5c88289d4678c95d53f2c38447d2181da9bb0f495a339",
+    "rtl/pochoco_spi_slave.v": "bdf788cfeb0e2d6e3766de9a76d352751892f3820fc192cc355aac737fea3f42",
+    "rtl/pochoco_memory_rom_ram.v": "8f5d3af4866d02a1adcc2807da8fe68438b34a3d2c8d84a7d9d47f4ef6e84c03",
+    "rtl/pochoco_memory_unified_ff.v": "c56b1c2daa468915d048c94a5f10dc5f72f475f86ee499a095a9c14408657c4d",
+    "asic/baseline/espino_alu.v": "eaa8b0c5d36b298e5c29b7691cf6941c99c7952b7dbcf08f6e62bf1af4a472d7",
+    "rtl/espino_core/espino_controller.v": "d977623b7716227e72caa3cf062f89f1b827cd777b5aef13865ec122b672c0fd",
+    "rtl/espino_core/espino_core.v": "4a596e29f5034538485b9ac72c5fd64c1ffbd2961f81ab7602349604230baed0",
+    "rtl/espino_core/espino_decoder.v": "0aacdb01a5072a22ef3635677d837f04e20e90a5d8827384ebc75d5e349e71d2",
+    "rtl/espino_core/espino_id_stage.v": "d87f5f38a201efaec9c4d215e95bb43bcc4517f747a854544ccf3d94c5a61b58",
+    "rtl/espino_core/espino_if_stage.v": "99fd082a03223601cb3b54428dd346a85f4ac7dc0b17ab1cdd9419c744e816c1",
+    "rtl/espino_core/espino_load_store_unit.v": "80a2db9e34d79fbe9876b06748b9aea27ae66e7d1293fae81f4c861e5d22a14d",
+    "rtl/espino_core/espino_register_file_ff.v": "6aff02ce936303a778fb588cbb4a9629741983ea68bed9c64dc85119d978325b",
+    "scripts/stage12_run.py": "b53f23937cf5e26ce19a15df513edb3e759b75208ae92227a0520000241d1e1b"
+  }
+}

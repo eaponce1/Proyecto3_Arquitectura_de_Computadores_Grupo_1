@@ -1,0 +1,5 @@
+#!/bin/sh
+# Compatibility shim for the GF180MCU deck's informational memory logger.
+# LibreLane 3.0.16's container omits procps/pmap; the rule checks do not use
+# this value.  Keep enough output for the deck's `tail -1` and substring call.
+printf 'total kB  0  0  0\n'

@@ -1,0 +1,125 @@
+24-Oct-2026 14:03:55 | INFO    | Your Klayout version is: KLayout 0.30.7
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['via3.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['lvpwell.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['sram_3p3.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['via1.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['via4.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['sab.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['mim_a.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['mcell.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['contact.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['esd.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['poly2.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['metaltop_30k.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:55 | INFO    | ## Generating template with for the following rule tables: ['ldnmos.drc']
+24-Oct-2026 14:03:55 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['nwell.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['metal2.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['drc_bjt.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['metal4.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['lvs_bjt.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['via2.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['ymtp_mk.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['metal3.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['pres.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['dummy_exclude.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['nat.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['efuse.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:03:56 | INFO    | ## Generating template with for the following rule tables: ['hres.drc']
+24-Oct-2026 14:03:56 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['via5.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['geom.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['dualgate.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['lres.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['comp.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['metal1.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['dnwell.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['metal5.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['otp_mk.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['pplus.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['sram_5p0.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['nplus.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['mim_b.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['metaltop.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | ## Generating template with for the following rule tables: ['ldpmos.drc']
+24-Oct-2026 14:04:53 | INFO    | ## Your run dir located at: /work/reports/stage9/klayout_drc_repro_check
+24-Oct-2026 14:04:53 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design via3 on cell asic_top:
+24-Oct-2026 14:04:53 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design lvpwell on cell asic_top:
+24-Oct-2026 14:04:53 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design sram_3p3 on cell asic_top:
+24-Oct-2026 14:04:53 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design via1 on cell asic_top:
+24-Oct-2026 14:05:18 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design via4 on cell asic_top:
+24-Oct-2026 14:05:21 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design sab on cell asic_top:
+24-Oct-2026 14:05:27 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design mim_a on cell asic_top:
+24-Oct-2026 14:05:41 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design mcell on cell asic_top:
+24-Oct-2026 14:05:41 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design contact on cell asic_top:
+24-Oct-2026 14:05:46 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design esd on cell asic_top:
+24-Oct-2026 14:05:49 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design poly2 on cell asic_top:
+24-Oct-2026 14:06:03 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metaltop_30k on cell asic_top:
+24-Oct-2026 14:06:13 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design ldnmos on cell asic_top:
+24-Oct-2026 14:06:23 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design nwell on cell asic_top:
+24-Oct-2026 14:06:25 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metal2 on cell asic_top:
+24-Oct-2026 14:06:40 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design drc_bjt on cell asic_top:
+24-Oct-2026 14:06:49 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metal4 on cell asic_top:
+24-Oct-2026 14:06:56 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design lvs_bjt on cell asic_top:
+24-Oct-2026 14:07:01 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design via2 on cell asic_top:
+24-Oct-2026 14:07:04 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design ymtp_mk on cell asic_top:
+24-Oct-2026 14:07:12 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metal3 on cell asic_top:
+24-Oct-2026 14:07:18 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design pres on cell asic_top:
+24-Oct-2026 14:07:27 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design dummy_exclude on cell asic_top:
+24-Oct-2026 14:07:34 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design nat on cell asic_top:
+24-Oct-2026 14:07:38 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design efuse on cell asic_top:
+24-Oct-2026 14:07:44 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design hres on cell asic_top:
+24-Oct-2026 14:07:50 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design via5 on cell asic_top:
+24-Oct-2026 14:08:03 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design geom on cell asic_top:
+24-Oct-2026 14:08:06 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design dualgate on cell asic_top:
+24-Oct-2026 14:08:11 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design lres on cell asic_top:
+24-Oct-2026 14:08:12 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design comp on cell asic_top:
+24-Oct-2026 14:08:35 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metal1 on cell asic_top:
+24-Oct-2026 14:08:43 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design dnwell on cell asic_top:
+24-Oct-2026 14:08:48 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metal5 on cell asic_top:
+24-Oct-2026 14:09:09 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design otp_mk on cell asic_top:
+24-Oct-2026 14:09:14 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design pplus on cell asic_top:
+24-Oct-2026 14:09:16 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design sram_5p0 on cell asic_top:
+24-Oct-2026 14:09:33 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design nplus on cell asic_top:
+24-Oct-2026 14:09:39 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design mim_b on cell asic_top:
+24-Oct-2026 14:09:41 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design metaltop on cell asic_top:
+24-Oct-2026 14:10:03 | INFO    | Running Global Foundries 180nm MCU /work/asic/runs/etapa9_rom_ram_util40_debounce/final/gds/asic_top.gds checks on design ldpmos on cell asic_top:
+24-Oct-2026 14:10:47 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.

@@ -1,0 +1,4 @@
+net,violations,corners,worst_slew_ns,limit_ns,worst_slack_ns,pins,cells,drivers,classification
+eco_buffer_72_net,6,"max_ss_125C_4v50,min_ss_125C_4v50,nom_ss_125C_4v50",3.302481,3.0,-0.302481,"_7165_/ZN,eco_buffer_72/I","gf180mcu_fd_sc_mcu7t5v0__aoi221_1,gf180mcu_fd_sc_mcu7t5v0__buf_8",_7165_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_1),instruction/ROM
+_0072_,2,max_ss_125C_4v50,3.074549,3.0,-0.074549,"_5187_/ZN,_9262_/D","gf180mcu_fd_sc_mcu7t5v0__aoi22_1,gf180mcu_fd_sc_mcu7t5v0__dffrnq_1",_5187_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi22_1),data/register-file;instruction/ROM
+eco_buffer_64_net,2,max_ss_125C_4v50,3.013716,3.0,-0.013717,"_7071_/ZN,eco_buffer_64/I","gf180mcu_fd_sc_mcu7t5v0__aoi221_2,gf180mcu_fd_sc_mcu7t5v0__buf_4",_7071_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi221_2),instruction/ROM

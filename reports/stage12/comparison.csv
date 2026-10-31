@@ -1,0 +1,5 @@
+tag,slew,capacitance,fanout,worst_violating_slew_ns,setup_ws_ns,hold_ws_ns,setup_wns_ns,hold_wns_ns,setup_tns_ns,hold_tns_ns,stdcell_um2,die_um2,utilization_percent,routing_drc,magic_drc,lvs,antenna_nets,global_wire_um,route_wire_um,all_nine_corners,synthesis_same
+etapa9_rom_ram_util40_debounce,2695,10,58,6.518591,37.17198742916638,0.12603829447978224,0,0,0,0,181227,375554,52.2176,0,0,0,0,536802,392042,True,True
+etapa12_rom_ram_no_dlyb,2593,7,57,6.364203,21.99391309107304,0.1279344444371663,0,0,0,0,194403,375554,56.01390000000001,0,0,0,0,542984,387773,True,True
+etapa12_rom_ram_no_delay,2508,4,57,6.175589,50.78048703042977,0.11668299989819254,0,0,0,0,166407,375554,47.9475,0,0,0,0,529972,380885,True,True
+etapa12_rom_ram_no_delay_ss,440,2,57,5.405243,53.64685203468914,0.054793393595500665,0,0,0,0,177912,375554,51.2625,0,0,0,0,543270,387934,True,True

@@ -1,0 +1,9 @@
+Command attempted from PowerShell:
+wsl.exe sh -lc "cd /tmp/pochoco3 && tests/stage21/run_external_compare.sh"
+
+Result:
+Access denied.
+Error code: Wsl/Service/CreateInstance/E_ACCESSDENIED
+
+The command failed while WSL was creating its instance. Icarus was not
+started, so this file is not a simulation result.
