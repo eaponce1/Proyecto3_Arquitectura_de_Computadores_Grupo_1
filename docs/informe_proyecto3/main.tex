@@ -18,6 +18,7 @@
 
 \geometry{margin=2.35cm}
 \hypersetup{colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black}
+\setlength{\headheight}{14pt}
 \setlength{\parskip}{0.45em}
 \setlength{\parindent}{0pt}
 \renewcommand{\arraystretch}{1.14}
@@ -58,7 +59,7 @@
 \end{tabular}
 \vfill
 {\large Semestre 2026-2\par}
-{\large 24 de octubre de 2026\par}
+{\large 31 de octubre de 2026\par}
 \end{titlepage}
 
 \begin{abstract}
@@ -407,8 +408,8 @@ comparables del peor corner eléctrico se muestran en el
 Cuadro~\ref{tab:repair-electrical}. La evidencia original está en
 \ruta{reports/stage12/comparison.csv} y
 \ruta{reports/stage13/comparison.csv}; las tablas de nueve corners están
-en \ruta{reports/stage12/timing_nine_corners.csv} y
-\ruta{reports/stage13/timing_nine_corners.csv}.
+en \url{reports/stage12/timing_nine_corners.csv} y
+\url{reports/stage13/timing_nine_corners.csv}.
 
 \begin{table}[H]
 \centering\small
@@ -484,7 +485,7 @@ referencia histórica reglamentaria de 100 ns y 40\%.
 
 La Etapa 6 identificó rutas de slew asociadas a fetch/decode/execute y a la decodificación de dirección ROM/RAM. Por ejemplo, \ruta{_3648_} alcanzó 6,120624\ns{} frente a un límite de 3\ns{}. Se probaron reparación post-GRT, márgenes de slew/capacitancia y CTS. El mejor balance, GRT70+CTS10, bajó a 143/27/1 violaciones de slew/cap/fanout, pero no cerró; variantes que eliminaron fanout empeoraron slew.
 
-Durante el desarrollo se encontró una violación de antena real en \ruta{u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]}, con relación 826,80/400,00 en Metal4. La causa fue una salida de ROM combinacional con ruta física larga; la reparación insertó jumpers/diodos y los reportes posteriores de antena quedaron limpios. La trazabilidad de layout conserva register file, contador y la frontera observable de ALU; la captura corresponde a \ruta{etapa6_rom_ram_grt60}, una corrida experimental, no a \ruta{etapa21_combined}. Por tanto, esta figura demuestra el método de identificación, pero no satisface por sí sola el requisito de adjuntar las ubicaciones anotadas sobre el layout final cerrado. La captura anotada específica de \ruta{etapa21_combined} queda pendiente y no se sustituye por una imagen de otra corrida.
+Durante el desarrollo se encontró una violación de antena real en \url{u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]}, con relación 826,80/400,00 en Metal4. La causa fue una salida de ROM combinacional con ruta física larga; la reparación insertó jumpers/diodos y los reportes posteriores de antena quedaron limpios. La trazabilidad de layout conserva register file, contador y la frontera observable de ALU; la captura corresponde a \ruta{etapa6_rom_ram_grt60}, una corrida experimental, no a \ruta{etapa21_combined}. Por tanto, esta figura demuestra el método de identificación, pero no satisface por sí sola el requisito de adjuntar las ubicaciones anotadas sobre el layout final cerrado. La captura anotada específica de \ruta{etapa21_combined} queda pendiente y no se sustituye por una imagen de otra corrida.
 
 \begin{figure}[H]
 \centering
@@ -581,7 +582,7 @@ comercial~\cite{gf180mcu_pdk_docs}.
 \appendix
 \section{Reproducibilidad y evidencias}
 Los comandos y rutas se documentan en \ruta{README.md} y en
-\ruta{docs/proyecto3_etapa3.md} a \ruta{docs/proyecto3_etapa24.md}.
+\url{docs/proyecto3_etapa3.md} a \url{docs/proyecto3_etapa24.md}.
 Evidencias principales:
 \begin{itemize}[nosep]
 \item \ruta{asic/runs/etapa9_rom_ram_util40_debounce/}: baseline reglamentaria.
@@ -592,7 +593,7 @@ Evidencias principales:
 \item \ruta{reports/stage12/} a \ruta{reports/stage21/}: comparación eléctrica, timing por corner y logs de las reparaciones dirigidas.
 \item \ruta{reports/stage21/}, \ruta{reports/stage22/} y \ruta{reports/stage24/}: comparación externa, benchmarks y diagnóstico de Verilator.
 \item \ruta{asic/runs/etapa21_combined/final/gds/asic_top.gds}: GDSII candidato de la corrida con cierre eléctrico del macro.
-\item \ruta{asic/runs/etapa21_combined/final/nl/asic_top.nl.v} y \ruta{asic/runs/etapa21_combined/final/spef/}: netlist y SPEF de la misma implementación física.
+\item \url{asic/runs/etapa21_combined/final/nl/asic_top.nl.v} y \url{asic/runs/etapa21_combined/final/spef/}: netlist y SPEF de la misma implementación física.
 \item \ruta{docs/proyecto3_referencias_oficiales.md}: auditoría frente a fuentes oficiales.
 \end{itemize}
 
