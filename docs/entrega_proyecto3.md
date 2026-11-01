@@ -40,7 +40,7 @@ Se implementan las dos alternativas:
 - ROM combinacional generada desde Assembly más RAM de datos reducida.
 - Memoria unificada implementada con flip-flops.
 
-La comparación de área, cantidad de FF y utilización está en el informe. **La frecuencia máxima de la memoria unificada no está determinada**: el informe registra 100 ns (10 MHz) como período demostrado, no como mínimo período que cierre todos los corners. No se debe presentar ese valor como frecuencia máxima. Para completar el requisito literalmente se necesita un barrido de `CLOCK_PERIOD` para esa arquitectura y registrar setup/hold WNS y TNS en corner típico y lento.
+La comparación de área, cantidad de FF y utilización está en el informe. La Etapa 25 completó un barrido de 100 a 60 ns con STA post-route en nueve corners. El menor período demostrado que cumple setup y hold es 64 ns (15,625 MHz); 63 ns falla setup (WNS −0,210036 ns; TNS −0,821011 ns). Los puntos de 62 y 60 ns también fallan. El límite queda acotado entre 63 y 64 ns para los períodos ensayados; no se afirma una frecuencia máxima matemática. La memoria unificada conserva violaciones eléctricas (10758/730/355 slew/capacitancia/fanout) y no sustituye el cierre eléctrico ROM+RAM de Etapa 21. Evidencia: `reports/stage25/unified_ff_frequency_sweep_final.md` y `.csv`.
 
 ### 3.3 — Síntesis y jerarquía
 El informe incluye las cinco celdas estándar más usadas, desglose jerárquico de register file, ALU, ROM, periférico y SoC, y el método previo al aplanamiento. El register file es el mayor contribuyente de área.
@@ -75,9 +75,9 @@ Para LibreLane se documenta la versión **3.0.16**, PDK **gf180mcuD**, revisión
 
 ## Pendientes reales antes de la defensa
 
-1. Si el tiempo y el entorno lo permiten, ejecutar el barrido de frecuencia de la memoria unificada y agregar los resultados; si no, declarar expresamente esta limitación.
-2. Incorporar o confirmar una captura anotada del layout de `etapa21_combined` con register file, ALU y contador. Si no se logra identificar de forma inequívoca las instancias en el GDS final, mantener la limitación explícita.
-3. Tener disponibles los logs completos de `asic/runs/` para responder preguntas de trazabilidad, aunque no se suban al repositorio por su tamaño.
-4. Revisar visualmente el PDF compilado (tablas anchas, figuras, referencias cruzadas y portada) antes de la entrega.
+1. Incorporar o confirmar una captura anotada del layout de `etapa21_combined` con register file, ALU y contador. La figura actual corresponde a Etapa 6 y no debe presentarse como layout final.
+2. Tener disponibles localmente los logs completos de `asic/runs/` para responder preguntas de trazabilidad; el árbol completo no se publica por su tamaño.
+3. Compilar el PDF actualizado y revisar visualmente tablas, referencias cruzadas, figuras y portada antes de entregar.
+4. Mantener explícitas las limitaciones de SDC de interfaz y de equivalencia funcional exhaustiva/formal del netlist final.
 
 No se modificaron RTL, Assembly, assembler, constraints ni resultados de corridas físicas al preparar esta documentación.
