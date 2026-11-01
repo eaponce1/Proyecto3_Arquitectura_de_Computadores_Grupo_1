@@ -76,7 +76,7 @@ generado es un candidato reproducible, no un resultado con cierre eléctrico
 ni signoff definitivo.
 La mejor candidata técnica posterior, \ruta{etapa12_rom_ram_no_delay_ss},
 redujo las violaciones a 440 de slew, 2 de capacitancia y 57 de fanout.
-La Etapa 21 finalmente alcanzó cero violaciones eléctricas en el macro
+La Etapa 25 caracterizó la memoria unificada: 64 ns (15,625 MHz) cumple setup/hold en nueve corners y 63 ns falla setup. La memoria unificada mantiene violaciones eléctricas, por lo que este resultado temporal no sustituye el cierre de ROM+RAM. La Etapa 21 finalmente alcanzó cero violaciones eléctricas en el macro
 con la corrida \ruta{etapa21_combined}; el GDSII sigue siendo candidato de
 macro y no certifica un chip completo con pads e I/O.
 \end{abstract}
@@ -187,13 +187,13 @@ Celdas sintetizadas & 5140 & 17660 \\
 Área stdcell post-route (\umdos{}) & 184179 & 730205 \\
 Área de die (mm$^2$) & 0,382215 & 1,470110 \\
 Utilización física & 51,8778\% & 51,6617\% \\
-Menor período demostrado & 62\ns{} & 100\ns{} \\
-Frecuencia demostrada & 16,129\mhz{} & 10\mhz{} (no máximo probado) \\
+Menor período demostrado & 62\ns{} & 64\ns{} \\
+Frecuencia demostrada & 16,129\mhz{} & 15,625\mhz{} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-ROM+RAM se eligió como candidata por usar aproximadamente cuatro veces menos área de síntesis. Para ROM+RAM, el menor período que cerró timing en los nueve corners fue 62 ns (16,129 MHz). Para la memoria unificada solo se verificó el punto de 100 ns (10 MHz); no se ejecutó un barrido de período para esa arquitectura. Por tanto, 10 MHz es una frecuencia demostrada, no su frecuencia máxima. El requisito de frecuencia máxima para la memoria unificada queda pendiente de una exploración adicional.
+ROM+RAM se eligió como candidata por usar aproximadamente cuatro veces menos área de síntesis. Para ROM+RAM, el menor período que cerró timing en los nueve corners fue 62 ns (16,129 MHz). La Etapa 25 caracterizó la memoria unificada con períodos de 100 a 60 ns: 64 ns (15,625 MHz) es el menor período demostrado que cumple setup y hold; 63 ns es el primer punto ensayado que falla setup. El límite queda acotado entre 63 y 64 ns para los puntos probados, sin afirmar una frecuencia máxima matemática. La memoria unificada conserva violaciones eléctricas y no es la candidata de cierre físico.
 
 \section{Síntesis, celdas más utilizadas y desglose jerárquico}
 Las corridas usaron LibreLane 3.0.16, PDK \ruta{gf180mcuD} revisión \ruta{8afc8346a57fe1ab7934ba5a6056ea8b43078e71}, biblioteca \ruta{gf180mcu_fd_sc_mcu7t5v0} y Yosys 0.62. La comparación inicial produjo 140802,3232\umdos{} y 874 FF para ROM+RAM, frente a 565735,9680\umdos{} y 5317 FF para memoria unificada.
@@ -283,6 +283,35 @@ Período & WS típico & WS setup lento & TNS setup lento & WS hold lento & Resul
 
 El menor período que cerró los nueve corners fue 62\ns{}, equivalente a 16,129\mhz{}. La ruta crítica de 100\ns{} en \ruta{max_ss_125C_4v50} parte de \ruta{_8522_} (\ruta{a_rdata_o[3]}) y termina en \ruta{_8510_} (\ruta{a_addr_i[25]} del PC). Corresponde a \emph{fetch} $\rightarrow$ decode/ejecución de salto $\rightarrow$ actualización de PC. El reporte \ruta{max.rpt} de Etapa 4 conserva celdas, buffers y retardos.
 
+\subsection{Barrido temporal de memoria unificada — Etapa 25}
+La arquitectura MemoryArchitecture=2 se evaluó con FP_CORE_UTIL=40, GF180MCU y LibreLane 3.0.16. Se completó STA post-route en nueve corners para los períodos indicados. La corrida de 63 ns llegó a STA post-route pero se detuvo allí; no generó GDS propio, lo que no invalida las métricas temporales.
+
+\begin{table}[H]
+\centering\small
+\caption{Barrido de período de memoria unificada. WNS/TNS corresponden al peor corner reportado.}
+\label{tab:unified-sweep}
+\begin{tabularx}{\linewidth}{rrrrY}
+\toprule
+Período & Frecuencia & Setup WNS & Setup TNS & Resultado \\
+(ns) & (MHz) & (ns) & (ns) & \\
+\midrule
+100 & 10,000 & +23,747405 & 0 & Cumple (histórica) \\
+80 & 12,500 & +16,789962 & 0 & Cumple \\
+70 & 14,286 & +6,789961 & 0 & Cumple \\
+65 & 15,385 & +1,789957 & 0 & Cumple \\
+64 & 15,625 & +0,789960 & 0 & Menor período demostrado que cumple \\
+63 & 15,873 & -0,210036 & -0,821011 & Falla setup; hold cumple \\
+62 & 16,129 & -1,210040 & -13,861495 & Falla setup \\
+60 & 16,667 & -3,210040 & -184,688650 & Falla setup \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+La corrida de 63 ns tuvo peor corner max_ss_125C_4v50; setup WNS=-0,210036 ns y TNS=-0,821011 ns, mientras hold WNS/TNS fue 0/0. La menor frecuencia/período demostrado que cumple en el barrido es 15,625 MHz (64 ns). No se interpola ni se afirma un límite continuo exacto: los puntos ensayados solo acotan el límite entre 63 y 64 ns.
+
+La corridas nuevas de 80–60 ns reportaron 724673 µm² de área stdcell, 1468100 µm² de die y 51,3187% de utilización. El peor conteo eléctrico reportado fue 10758/730/355 violaciones de slew/capacitancia/fanout. Estos resultados no constituyen cierre eléctrico de memoria unificada. La corrida histórica de 100 ns tiene métricas diferentes (730205 µm² stdcell y 9734/949/350 violaciones) y se mantiene separada.
+
+La evidencia reproducible está en \ruta{reports/stage25/unified_ff_frequency_sweep.csv} y \ruta{reports/stage25/unified_ff_frequency_sweep_final.md}.
 \section{Optimización RTL y resultados comparativos}
 \subsection{ALU experimental}
 Se propuso calcular comparaciones de igualdad y menor-que en paralelo con el sumador/restador. No modificó ciclos visibles, pero a 60\ns{} aumentó lógica y desplazó la ruta crítica hacia fetch/decode. Por ello fue descartada y nunca se usó en la referencia física.
@@ -591,7 +620,7 @@ Evidencias principales:
 \item \ruta{tests/stage7/}: testbench, logs y VCD post-síntesis.
 \item \ruta{reports/stage9/klayout_drc_etapa9_util40/}: KLayout DRC externo.
 \item \ruta{reports/stage12/} a \ruta{reports/stage21/}: comparación eléctrica, timing por corner y logs de las reparaciones dirigidas.
-\item \ruta{reports/stage21/}, \ruta{reports/stage22/} y \ruta{reports/stage24/}: comparación externa, benchmarks y diagnóstico de Verilator.
+\item \ruta{reports/stage21/}, \ruta{reports/stage22/} y \ruta{reports/stage24/}: comparación externa, benchmarks y diagnóstico de Verilator.\item \ruta{reports/stage25/}: barrido de frecuencia de memoria unificada, CSV y resumen de resultados.
 \item \ruta{asic/runs/etapa21_combined/final/gds/asic_top.gds}: GDSII candidato de la corrida con cierre eléctrico del macro.
 \item \url{asic/runs/etapa21_combined/final/nl/asic_top.nl.v} y \url{asic/runs/etapa21_combined/final/spef/}: netlist y SPEF de la misma implementación física.
 \item \ruta{docs/proyecto3_referencias_oficiales.md}: auditoría frente a fuentes oficiales.
