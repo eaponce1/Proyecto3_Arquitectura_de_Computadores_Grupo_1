@@ -284,7 +284,7 @@ Período & WS típico & WS setup lento & TNS setup lento & WS hold lento & Resul
 El menor período que cerró los nueve corners fue 62\ns{}, equivalente a 16,129\mhz{}. La ruta crítica de 100\ns{} en \ruta{max_ss_125C_4v50} parte de \ruta{_8522_} (\ruta{a_rdata_o[3]}) y termina en \ruta{_8510_} (\ruta{a_addr_i[25]} del PC). Corresponde a \emph{fetch} $\rightarrow$ decode/ejecución de salto $\rightarrow$ actualización de PC. El reporte \ruta{max.rpt} de Etapa 4 conserva celdas, buffers y retardos.
 
 \subsection{Barrido temporal de memoria unificada — Etapa 25}
-La arquitectura MemoryArchitecture=2 se evaluó con FP_CORE_UTIL=40, GF180MCU y LibreLane 3.0.16. Se completó STA post-route en nueve corners para los períodos indicados. La corrida de 63 ns llegó a STA post-route pero se detuvo allí; no generó GDS propio, lo que no invalida las métricas temporales.
+La arquitectura \ruta{MemoryArchitecture=2} se evaluó con \ruta{FP_CORE_UTIL=40}, GF180MCU y LibreLane 3.0.16. Se completó STA post-route en nueve corners para los períodos indicados. La corrida de 63 ns llegó a STA post-route pero se detuvo allí; no generó GDS propio, lo que no invalida las métricas temporales.
 
 \begin{table}[H]
 \centering\small
