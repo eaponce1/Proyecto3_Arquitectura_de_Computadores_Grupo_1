@@ -239,6 +239,15 @@ Las evidencias reproducibles de estas etapas están en `tests/stage21/`,
 `reports/stage24/`. La preparación de entrega y sus limitaciones vigentes
 se resumen en [`docs/entrega_proyecto3.md`](docs/entrega_proyecto3.md).
 
+
+### Barrido de frecuencia de memoria unificada — Etapa 25
+
+La arquitectura `MemoryArchitecture=2` se caracterizó con STA post-route en nueve corners. El menor período demostrado que cumple setup y hold es **64 ns (15,625 MHz)**; a **63 ns** setup falla (WNS −0,210036 ns; TNS −0,821011 ns). Los puntos de 62 y 60 ns también fallan setup. El límite queda acotado entre 63 y 64 ns para los puntos ensayados; no se afirma una frecuencia máxima matemática.
+
+Las corridas nuevas de 80–60 ns reportan área stdcell 724673 µm², die 1468100 µm² y utilización real 51,3187 %. La memoria unificada conserva 10758/730/355 violaciones de slew/capacitancia/fanout: su cumplimiento de setup/hold **no equivale a cierre eléctrico**. El cierre eléctrico 0/0/0 corresponde exclusivamente a `etapa21_combined` ROM+RAM a 100 ns.
+
+Resultados reproducibles: `reports/stage25/unified_ff_frequency_sweep_final.md` y `reports/stage25/unified_ff_frequency_sweep.csv`.
+
 ### Informe y entrega reproducible
 
 El informe fuente está en `docs/informe_proyecto3/main.tex`, el paquete
