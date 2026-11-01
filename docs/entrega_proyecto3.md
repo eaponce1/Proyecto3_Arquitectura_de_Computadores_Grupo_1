@@ -75,7 +75,7 @@ Para LibreLane se documenta la versión **3.0.16**, PDK **gf180mcuD**, revisión
 
 ## Pendientes reales antes de la defensa
 
-1. Incorporar o confirmar una captura anotada del layout de `etapa21_combined` con register file, ALU y contador. La figura actual corresponde a Etapa 6 y no debe presentarse como layout final.
+1. La figura de trazabilidad se actualizó usando los archivos `asic_top.def` y `asic_top.nl.v` proporcionados para esta revisión: identifica 480 FF del register file, 32 FF de `cycle_q` y 32 drivers de la frontera observable `a_addr_i`. La ALU está representada solo por esa frontera, no por todas sus celdas internas. **Pendiente de signoff documental:** contrastar los SHA-256 de ambos archivos con los artefactos originales de `etapa21_combined` antes de afirmar que el DEF corresponde inequívocamente a esa corrida.
 2. Tener disponibles localmente los logs completos de `asic/runs/` para responder preguntas de trazabilidad; el árbol completo no se publica por su tamaño.
 3. Compilar el PDF actualizado y revisar visualmente tablas, referencias cruzadas, figuras y portada antes de entregar.
 4. Mantener explícitas las limitaciones de SDC de interfaz y de equivalencia funcional exhaustiva/formal del netlist final.
