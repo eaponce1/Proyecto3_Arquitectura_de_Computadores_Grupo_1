@@ -16,6 +16,7 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{tikz}
+\usepackage{seqsplit}
 
 \geometry{margin=2.35cm}
 \hypersetup{colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black}
@@ -198,7 +199,7 @@ Frecuencia demostrada & 16,129\mhz{} & 15,625\mhz{} \\
 ROM+RAM se eligió como candidata por usar aproximadamente cuatro veces menos área de síntesis. Para ROM+RAM, el menor período que cerró timing en los nueve corners fue 62 ns (16,129 MHz). La Etapa 25 caracterizó la memoria unificada con períodos de 100 a 60 ns: 64 ns (15,625 MHz) es el menor período demostrado que cumple setup y hold; 63 ns es el primer punto ensayado que falla setup. El límite queda acotado entre 63 y 64 ns para los puntos probados, sin afirmar una frecuencia máxima matemática. La memoria unificada conserva violaciones eléctricas y no es la candidata de cierre físico.
 
 \section{Síntesis, celdas más utilizadas y desglose jerárquico}
-Las corridas usaron LibreLane 3.0.16, PDK \ruta{gf180mcuD} revisión \ruta{8afc8346a57fe1ab7934ba5a6056ea8b43078e71}, biblioteca \ruta{gf180mcu_fd_sc_mcu7t5v0} y Yosys 0.62. La comparación inicial produjo 140802,3232\umdos{} y 874 FF para ROM+RAM, frente a 565735,9680\umdos{} y 5317 FF para memoria unificada.
+Las corridas usaron LibreLane 3.0.16, PDK \ruta{gf180mcuD} y biblioteca \ruta{gf180mcu_fd_sc_mcu7t5v0}. La revisión de \texttt{open\_pdks} fue \texttt{\seqsplit{8afc8346a57fe1ab7934ba5a6056ea8b43078e71}}; se utilizó Yosys 0.62. La comparación inicial produjo 140802,3232\umdos{} y 874 FF para ROM+RAM, frente a 565735,9680\umdos{} y 5317 FF para memoria unificada.
 
 \begin{table}[H]
 \centering\small
@@ -270,7 +271,7 @@ Lento: \ruta{max_ss_125C_4v50} & 0 & 0 & +38,023054 & 0 & 0 & +0,964812 \\
 \centering\small
 \caption{Barrido ROM+RAM: corners representativos y resultado de nueve corners.}
 \label{tab:sweep}
-\begin{tabular}{rrrrrl}
+\setlength{\tabcolsep}{3pt}\begin{tabularx}{\linewidth}{rrrrrX}\scriptsize
 \toprule
 Período & WS típico & WS setup lento & TNS setup lento & WS hold lento & Resultado \\
 (ns) & (ns) & (ns) & (ns) & (ns) & \\
@@ -280,7 +281,8 @@ Período & WS típico & WS setup lento & TNS setup lento & WS hold lento & Resul
 62 & +29,579 & +0,023 & 0 & +0,965 & Cumple; mínimo demostrado \\
 60 & +27,579 & -1,977 & -26,791 & +0,965 & Falla setup \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
+\setlength{\tabcolsep}{6pt}
 \end{table}
 
 El menor período que cerró los nueve corners fue 62\ns{}, equivalente a 16,129\mhz{}. La ruta crítica de 100\ns{} en \ruta{max_ss_125C_4v50} parte de \ruta{_8522_} (\ruta{a_rdata_o[3]}) y termina en \ruta{_8510_} (\ruta{a_addr_i[25]} del PC). Corresponde a \emph{fetch} $\rightarrow$ decode/ejecución de salto $\rightarrow$ actualización de PC. El reporte \ruta{max.rpt} de Etapa 4 conserva celdas, buffers y retardos.
@@ -552,7 +554,7 @@ Caso & Resultado RTL & Resultado post-síntesis & Coincidencia \\
 \midrule
 A: ronda correcta & Objetivo 8, puntaje 1, display 00, 47 ciclos & Igual, 47 ciclos & Exacta \\
 B: botón incorrecto & Objetivo 4, botón 1, EE, score 0, reinicio; 37 ciclos & Igual, 37 ciclos & Exacta \\
-C: diez rondas & Score 10, promedio 01; 47,54,61,68,75,82,89,96,103,110 ciclos & Igual & Exacta; \ruta{mismatches=0} \\
+C: diez rondas & \shortstack[l]{Score 10, promedio 01;\\47, 54, 61, 68, 75, 82, 89, 96, 103, 110 ciclos} & Igual & Exacta; \ruta{mismatches=0} \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -636,9 +638,10 @@ Evidencias principales:
 \item \ruta{tests/stage7/}: testbench, logs y VCD post-síntesis.
 \item \ruta{reports/stage9/klayout_drc_etapa9_util40/}: KLayout DRC externo.
 \item \ruta{reports/stage12/} a \ruta{reports/stage21/}: comparación eléctrica, timing por corner y logs de las reparaciones dirigidas.
-\item \ruta{reports/stage21/}, \ruta{reports/stage22/} y \ruta{reports/stage24/}: comparación externa, benchmarks y diagnóstico de Verilator.\item \ruta{reports/stage25/}: barrido de frecuencia de memoria unificada, CSV y resumen de resultados.
+\item \ruta{reports/stage21/}, \ruta{reports/stage22/} y \ruta{reports/stage24/}: comparación externa, benchmarks y diagnóstico de Verilator.
+\item \ruta{reports/stage25/}: barrido de frecuencia de memoria unificada, CSV y resumen de resultados.
 \item \ruta{asic/runs/etapa21_combined/final/gds/asic_top.gds}: GDSII candidato de la corrida con cierre eléctrico del macro.
-\item \url{asic/runs/etapa21_combined/final/nl/asic_top.nl.v} y \url{asic/runs/etapa21_combined/final/spef/}: netlist y SPEF de la misma implementación física.
+\item \ruta{asic/runs/etapa21_combined/final/nl/asic_top.nl.v} y \ruta{asic/runs/etapa21_combined/final/spef/}: netlist y SPEF de la misma implementación física.
 \item \ruta{docs/proyecto3_referencias_oficiales.md}: auditoría frente a fuentes oficiales.
 \end{itemize}
 
