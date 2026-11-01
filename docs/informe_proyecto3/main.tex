@@ -271,7 +271,7 @@ Lento: \ruta{max_ss_125C_4v50} & 0 & 0 & +38,023054 & 0 & 0 & +0,964812 \\
 \centering\scriptsize
 \caption{Barrido ROM+RAM: corners representativos y resultado de nueve corners.}
 \label{tab:sweep}
-\setlength{\tabcolsep}{3pt}
+\setlength{\tabcolsep}{2pt}
 \begin{tabularx}{\linewidth}{rrrrrX}
 \toprule
 Período & WS típico & WS setup lento & TNS setup lento & WS hold lento & Resultado \\
@@ -373,7 +373,7 @@ Los terminales fueron colocados automáticamente, sin \ruta{FP_PIN_ORDER_CFG}. \
 \section{Exploración de utilización y cálculo de costos}
 \subsection{Tres floorplans}
 \begin{table}[H]
-\centering\small
+\centering\scriptsize
 \caption{Exploración física de utilización. Área de celdas y área de die se distinguen.}
 \label{tab:util}
 \setlength{\tabcolsep}{3pt}
@@ -642,7 +642,8 @@ Evidencias principales:
 \item \ruta{reports/stage21/}, \ruta{reports/stage22/} y \ruta{reports/stage24/}: comparación externa, benchmarks y diagnóstico de Verilator.
 \item \ruta{reports/stage25/}: barrido de frecuencia de memoria unificada, CSV y resumen de resultados.
 \item \ruta{asic/runs/etapa21_combined/final/gds/asic_top.gds}: GDSII candidato de la corrida con cierre eléctrico del macro.
-\item \ruta{asic/runs/etapa21_combined/final/nl/asic_top.nl.v} y \ruta{asic/runs/etapa21_combined/final/spef/}: netlist y SPEF de la misma implementación física.
+\item Netlist post-PnR: \ruta{asic/runs/etapa21_combined/final/nl/asic_top.nl.v}.
+\item Parasitismos SPEF: \ruta{asic/runs/etapa21_combined/final/spef/}.
 \item \ruta{docs/proyecto3_referencias_oficiales.md}: auditoría frente a fuentes oficiales.
 \end{itemize}
 
