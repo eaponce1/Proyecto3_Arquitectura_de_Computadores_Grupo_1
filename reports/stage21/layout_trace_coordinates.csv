@@ -1,4 +1,4 @@
 block,count,x_min_um,x_max_um,y_min_um,y_max_um,centroid_x_um,centroid_y_um,interpretation
 register_file,480,7.84,296.80,27.44,560.56,137.82,293.65,"Flip-flops identificados por jerarquia bank_a"
 cycle_q,32,297.36,538.72,19.60,176.40,423.36,72.28,"Flip-flops del contador cycle_q"
-alu_a_addr_i_boundary,32,302.00,541.00,310.00,530.00,408.29,439.53,"Drivers conectados a a_addr_i; frontera observable, no contorno completo de la ALU"
+alu_a_addr_i_boundary,32,301.28,551.04,309.68,529.20,408.29,439.53,"Drivers conectados a a_addr_i; frontera observable, no contorno completo de la ALU"
