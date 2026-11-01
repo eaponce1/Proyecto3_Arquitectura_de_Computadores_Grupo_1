@@ -15,6 +15,7 @@
 \usepackage{hyperref}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{tikz}
 
 \geometry{margin=2.35cm}
 \hypersetup{colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black}
@@ -514,12 +515,26 @@ referencia histórica reglamentaria de 100 ns y 40\%.
 
 La Etapa 6 identificó rutas de slew asociadas a fetch/decode/execute y a la decodificación de dirección ROM/RAM. Por ejemplo, \ruta{_3648_} alcanzó 6,120624\ns{} frente a un límite de 3\ns{}. Se probaron reparación post-GRT, márgenes de slew/capacitancia y CTS. El mejor balance, GRT70+CTS10, bajó a 143/27/1 violaciones de slew/cap/fanout, pero no cerró; variantes que eliminaron fanout empeoraron slew.
 
-Durante el desarrollo se encontró una violación de antena real en \url{u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]}, con relación 826,80/400,00 en Metal4. La causa fue una salida de ROM combinacional con ruta física larga; la reparación insertó jumpers/diodos y los reportes posteriores de antena quedaron limpios. La trazabilidad de layout conserva register file, contador y la frontera observable de ALU; la captura corresponde a \ruta{etapa6_rom_ram_grt60}, una corrida experimental, no a \ruta{etapa21_combined}. Por tanto, esta figura demuestra el método de identificación, pero no satisface por sí sola el requisito de adjuntar las ubicaciones anotadas sobre el layout final cerrado. La captura anotada específica de \ruta{etapa21_combined} queda pendiente y no se sustituye por una imagen de otra corrida.
+Durante el desarrollo se encontró una violación de antena real en \url{u_pochoco_soc.genblk1.g_rom_ram_memory.u_ram.a_rdata_o[20]}, con relación 826,80/400,00 en Metal4. La causa fue una salida de ROM combinacional con ruta física larga; la reparación insertó jumpers/diodos y los reportes posteriores de antena quedaron limpios.
+
+Para mejorar la trazabilidad física se analizaron el DEF de \ruta{asic_top} y el netlist post-PnR entregados para esta revisión. Se extrajeron las ubicaciones de 480 flip-flops del register file y 32 flip-flops de \ruta{cycle_q}. Como la síntesis aplanó la jerarquía de la ALU, se identificó su frontera observable mediante los 32 drivers conectados a \ruta{a_addr_i}; esta nube no representa el contorno completo de la ALU ni permite atribuirle todas sus celdas internas. Las coordenadas se expresan en micrones y se convierten desde 2000 DBU/µm.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.94\linewidth]{figuras/etapa6_layout_trazabilidad.pdf}
-\caption{Trazabilidad sobre una captura real de \ruta{etapa6_rom_ram_grt60}: el recuadro ``Register file (480)'' agrupa celdas asociadas al banco de registros; ``ALU (drivers de \ruta{a_addr_i}) (32)'' marca la frontera física observable de la ALU después del aplanamiento; y ``Contador de ciclos (32)'' identifica sus FF. Las coordenadas se obtuvieron de netlist/DEF. Es una corrida experimental, con 542/3/55 violaciones de slew/capacitancia/fanout, y no un layout eléctricamente cerrado.}
+\begin{tikzpicture}[x=0.0105cm,y=0.0105cm]
+  \draw[thick] (0,0) rectangle (603.93,621.85);
+  \node[anchor=north west,font=\small] at (8,615) {Die: 603,93 $\times$ 621,85 $\mu$m};
+  \draw[blue!75!black,very thick] (7.84,27.44) rectangle (296.80,560.56);
+  \fill[blue!75!black] (137.82,293.65) circle (5pt);
+  \node[blue!75!black,fill=white,align=center,font=\small] at (150,320) {Register file\\480 FF\\centroide (137,82; 293,65) $\mu$m};
+  \draw[orange!85!black,very thick] (297.36,19.60) rectangle (538.72,176.40);
+  \fill[orange!85!black] (423.36,72.28) circle (5pt);
+  \node[orange!85!black,fill=white,align=center,font=\small] at (455,115) {Contador \ruta{cycle_q}\\32 FF\\centroide (423,36; 72,28) $\mu$m};
+  \draw[green!50!black,very thick,dashed] (302,310) rectangle (541,530);
+  \fill[green!50!black] (408.29,439.53) circle (5pt);
+  \node[green!35!black,fill=white,align=center,font=\small] at (450,475) {Frontera observable ALU\\32 drivers de \ruta{a_addr_i}\\centroide (408,29; 439,53) $\mu$m};
+\end{tikzpicture}
+\caption{Trazabilidad espacial extraída de los archivos DEF y netlist de \ruta{asic_top}. Los rectángulos delimitan la envolvente de las coordenadas de las instancias identificadas, no macros físicos ni límites lógicos exactos. Para la ALU se muestra únicamente la frontera observable de drivers de \ruta{a_addr_i}, debido al aplanamiento de jerarquía. Antes de atribuir formalmente esta figura a \ruta{etapa21_combined}, deben conservarse y contrastarse los hashes de los archivos DEF/netlist con los artefactos de esa corrida.}
 \label{fig:trace-layout}
 \end{figure}
 
