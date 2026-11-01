@@ -58,5 +58,10 @@ jobs:
           git add docs/informe_proyecto3.pdf docs/Proyecto3_Overleaf.zip
           if ! git diff --cached --quiet; then
             git commit -m "Actualiza PDF y ZIP del informe desde LaTeX"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then break; fi
+              if [ "$attempt" -eq 3 ]; then exit 1; fi
+              sleep 2
+            done
           fi
