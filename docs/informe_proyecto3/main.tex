@@ -290,26 +290,26 @@ La arquitectura MemoryArchitecture=2 se evaluó con FP_CORE_UTIL=40, GF180MCU y 
 \centering\small
 \caption{Barrido de período de memoria unificada. WNS/TNS corresponden al peor corner reportado.}
 \label{tab:unified-sweep}
-\begin{tabularx}{\linewidth}{rrrrY}
+\begin{tabularx}{\linewidth}{rr r r r r Y}
 \toprule
-Período & Frecuencia & Setup WNS & Setup TNS & Resultado \\
-(ns) & (MHz) & (ns) & (ns) & \\
+Período & Frecuencia & Setup WNS & Setup TNS & Hold WNS & Hold TNS & Resultado \\
+(ns) & (MHz) & (ns) & (ns) & (ns) & (ns) & \\
 \midrule
-100 & 10,000 & +23,747405 & 0 & Cumple (histórica) \\
-80 & 12,500 & +16,789962 & 0 & Cumple \\
-70 & 14,286 & +6,789961 & 0 & Cumple \\
-65 & 15,385 & +1,789957 & 0 & Cumple \\
-64 & 15,625 & +0,789960 & 0 & Menor período demostrado que cumple \\
-63 & 15,873 & -0,210036 & -0,821011 & Falla setup; hold cumple \\
-62 & 16,129 & -1,210040 & -13,861495 & Falla setup \\
-60 & 16,667 & -3,210040 & -184,688650 & Falla setup \\
+100 & 10,000 & +23,747405 & 0 & +0,171725 & 0 & Cumple (histórica) \\
+80 & 12,500 & +16,789962 & 0 & +0,139166 & 0 & Cumple \\
+70 & 14,286 & +6,789961 & 0 & +0,139166 & 0 & Cumple \\
+65 & 15,385 & +1,789957 & 0 & +0,139166 & 0 & Cumple \\
+64 & 15,625 & +0,789960 & 0 & +0,139166 & 0 & Menor período demostrado que cumple \\
+63 & 15,873 & -0,210036 & -0,821011 & 0 & 0 & Falla setup \\
+62 & 16,129 & -1,210040 & -13,861495 & +0,139166 & 0 & Falla setup \\
+60 & 16,667 & -3,210040 & -184,688650 & +0,139166 & 0 & Falla setup \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 La corrida de 63 ns tuvo peor corner max_ss_125C_4v50; setup WNS=-0,210036 ns y TNS=-0,821011 ns, mientras hold WNS/TNS fue 0/0. La menor frecuencia/período demostrado que cumple en el barrido es 15,625 MHz (64 ns). No se interpola ni se afirma un límite continuo exacto: los puntos ensayados solo acotan el límite entre 63 y 64 ns.
 
-La corridas nuevas de 80–60 ns reportaron 724673 µm² de área stdcell, 1468100 µm² de die y 51,3187% de utilización. El peor conteo eléctrico reportado fue 10758/730/355 violaciones de slew/capacitancia/fanout. Estos resultados no constituyen cierre eléctrico de memoria unificada. La corrida histórica de 100 ns tiene métricas diferentes (730205 µm² stdcell y 9734/949/350 violaciones) y se mantiene separada.
+Las corridas nuevas de 80–60 ns reportaron 724673 µm² de área stdcell, 1468100 µm² de die y 51,3187% de utilización. El peor conteo eléctrico reportado fue 10758/730/355 violaciones de slew/capacitancia/fanout. Estos resultados no constituyen cierre eléctrico de memoria unificada. La corrida histórica de 100 ns tiene métricas diferentes (730205 µm² stdcell y 9734/949/350 violaciones) y se mantiene separada.
 
 La evidencia reproducible está en \ruta{reports/stage25/unified_ff_frequency_sweep.csv} y \ruta{reports/stage25/unified_ff_frequency_sweep_final.md}.
 \section{Optimización RTL y resultados comparativos}
