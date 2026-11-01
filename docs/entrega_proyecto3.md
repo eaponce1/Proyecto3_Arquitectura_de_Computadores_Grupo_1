@@ -75,11 +75,11 @@ Para LibreLane se documenta la versión **3.0.16**, PDK **gf180mcuD**, revisión
 
 ## Pendientes reales antes de la defensa
 
-La compilación técnica del PDF y la integridad del ZIP ya están verificadas por GitHub Actions. Esto no sustituye la inspección visual del documento ni la comprobación de trazabilidad del layout.
+La compilación técnica del PDF y la integridad del ZIP ya están verificadas por GitHub Actions. El pipeline también ejecutó `tests/run_tests.py`: **16 pruebas Python y seis testbenches Icarus pasaron**. Esto no sustituye la inspección visual del documento ni la comprobación de trazabilidad del layout.
 
 1. La figura de trazabilidad se actualizó usando los archivos `asic_top.def` y `asic_top.nl.v` proporcionados para esta revisión: identifica 480 FF del register file, 32 FF de `cycle_q` y 32 drivers de la frontera observable `a_addr_i`. La ALU está representada solo por esa frontera, no por todas sus celdas internas. **Pendiente de signoff documental:** contrastar los SHA-256 de ambos archivos con los artefactos originales de `etapa21_combined` antes de afirmar que el DEF corresponde inequívocamente a esa corrida.
 2. Tener disponibles localmente los logs completos de `asic/runs/` para responder preguntas de trazabilidad; el árbol completo no se publica por su tamaño.
-3. **Compilación automática completada:** GitHub Actions compiló el informe con pdfLaTeX/BibTeX, generó un PDF válido de 17 páginas (861.759 bytes), regeneró el ZIP autocontenido de Overleaf (7 archivos; integridad ZIP verificada) y publicó ambos artefactos. La revisión visual humana de portada, tablas, figuras y saltos de página sigue pendiente.
+3. **Compilación automática completada:** GitHub Actions compiló el informe con pdfLaTeX/BibTeX, generó un PDF válido de 17 páginas, regeneró el ZIP autocontenido de Overleaf (7 archivos; integridad ZIP verificada) y publicó ambos artefactos. La revisión visual humana de portada, tablas, figuras y saltos de página sigue pendiente.
 4. Mantener explícitas las limitaciones de SDC de interfaz y de equivalencia funcional exhaustiva/formal del netlist final.
 
 No se modificaron RTL, Assembly, assembler, constraints ni resultados de corridas físicas al preparar esta documentación.
