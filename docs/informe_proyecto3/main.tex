@@ -534,11 +534,11 @@ Para mejorar la trazabilidad física se analizaron el DEF de \ruta{asic_top} y e
   \draw[orange!85!black,very thick] (297.36,19.60) rectangle (538.72,176.40);
   \fill[orange!85!black] (423.36,72.28) circle (5pt);
   \node[orange!85!black,fill=white,align=center,font=\small] at (455,115) {Contador \ruta{cycle_q}\\32 FF\\centroide (423,36; 72,28) $\mu$m};
-  \draw[green!50!black,very thick,dashed] (302,310) rectangle (541,530);
+  \draw[green!50!black,very thick,dashed] (301.28,309.68) rectangle (551.04,529.20);
   \fill[green!50!black] (408.29,439.53) circle (5pt);
   \node[green!35!black,fill=white,align=center,font=\small] at (450,475) {Frontera observable ALU\\32 drivers de \ruta{a_addr_i}\\centroide (408,29; 439,53) $\mu$m};
 \end{tikzpicture}
-\caption{Trazabilidad espacial extraída de los archivos DEF y netlist de \ruta{asic_top}. Los rectángulos delimitan la envolvente de las coordenadas de las instancias identificadas, no macros físicos ni límites lógicos exactos. Para la ALU se muestra únicamente la frontera observable de drivers de \ruta{a_addr_i}, debido al aplanamiento de jerarquía. Antes de atribuir formalmente esta figura a \ruta{etapa21_combined}, deben conservarse y contrastarse los hashes de los archivos DEF/netlist con los artefactos de esa corrida.}
+\caption{Trazabilidad espacial extraída de los archivos DEF y netlist de \ruta{asic_top}. Los rectángulos delimitan la envolvente de las coordenadas de las instancias identificadas, no macros físicos ni límites lógicos exactos. Para la ALU se muestra únicamente la frontera observable de drivers de \ruta{a_addr_i}, debido al aplanamiento de jerarquía. El netlist post-PnR coincide byte a byte con \ruta{reports/entrega/etapa21_combined_final.nl.v}; el DEF recibido para esta revisión tiene el mismo DIEAREA que las métricas de Etapa 21. El hash local del DEF se conserva en el manifiesto de trazabilidad; como el DEF no está versionado junto al GDS, esta última asociación queda corroborada por geometría y no por comparación binaria.}
 \label{fig:trace-layout}
 \end{figure}
 
@@ -546,16 +546,16 @@ Para mejorar la trazabilidad física se analizaron el DEF de \ruta{asic_top} y e
 Se simuló el netlist post-síntesis sin retardos anotados de \ruta{etapa7_rom_ram_post_synth} con modelos Verilog reales de \ruta{gf180mcu_fd_sc_mcu7t5v0}. El testbench aplica estímulos idénticos al RTL, genera VCD/logs y compara señales ciclo a ciclo. No se utilizó GDSII ni la ALU experimental.
 
 \begin{table}[H]
-\centering\small
+\centering\scriptsize
 \caption{Equivalencia RTL y post-síntesis de la corrida histórica \ruta{etapa7_rom_ram_post_synth}; no corresponde al netlist ECO final de Etapa 21.}
 \label{tab:postsynth}
-\begin{tabularx}{\linewidth}{p{0.18\linewidth}YYp{0.18\linewidth}}
+\begin{tabularx}{\linewidth}{p{0.14\linewidth}p{0.34\linewidth}p{0.30\linewidth}p{0.14\linewidth}}
 \toprule
 Caso & Resultado RTL & Resultado post-síntesis & Coincidencia \\
 \midrule
 A: ronda correcta & Objetivo 8, puntaje 1, display 00, 47 ciclos & Igual, 47 ciclos & Exacta \\
 B: botón incorrecto & Objetivo 4, botón 1, EE, score 0, reinicio; 37 ciclos & Igual, 37 ciclos & Exacta \\
-C: diez rondas & \shortstack[l]{Score 10, promedio 01;\\47, 54, 61, 68, 75, 82, 89, 96, 103, 110 ciclos} & Igual & Exacta; \ruta{mismatches=0} \\
+C: diez rondas & \shortstack[l]{Score 10, promedio 01;\\47, 54, 61, 68, 75;\\82, 89, 96, 103, 110 ciclos} & Igual & Exacta; \ruta{mismatches=0} \\
 \bottomrule
 \end{tabularx}
 \end{table}
