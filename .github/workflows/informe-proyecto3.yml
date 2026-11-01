@@ -7,6 +7,12 @@ on:
       - 'docs/informe_proyecto3/*.tex'
       - 'docs/informe_proyecto3/*.bib'
       - 'docs/informe_proyecto3/figuras/**'
+      - 'rtl/**'
+      - 'sw/**'
+      - 'tests/**'
+      - 'asic/*.json'
+      - 'asic/generated/**'
+      - 'Makefile'
       - 'scripts/package_overleaf.py'
       - '.github/workflows/informe-proyecto3.yml'
   workflow_dispatch:
